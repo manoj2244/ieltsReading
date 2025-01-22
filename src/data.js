@@ -22,7 +22,7 @@ export const passages = [
                                                                                         tennis rackets have
                                                                                         changed</strong></span></h2>`,
         
-                content: `   <p><span style="font-size: large;">In 2016, the
+                content: `   <p><span style="font-size: ;">In 2016, the
                                                                                     British professional tennis player Andy
                                                                                     Murray was ranked as the world’s number one.
                                                                                     It was an incredible achievement by any
