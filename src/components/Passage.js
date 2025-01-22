@@ -1,17 +1,56 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { passages } from "../data"; // Import the passages data
+import { Button, Drawer } from "antd";
+import { useNavigate } from "react-router-dom";
+
 
 const Passage = () => {
-  const { id } = useParams(); // Get the passage id from the URL
-  const passage = passages.find((p) => p.id === parseInt(id)); // Find the passage based on id
+    const { testId,id } = useParams(); // Get the passage id from the URL
 
-  if (!passage) {
-    return <div>Passage not found!</div>;
-  }
+    console.log(testId,id,"sgsdgsdgsdgsdg");
+    
+  const navigate = useNavigate();
+
+    
+    const passagePrev = passages.find((p) => p.id == testId); // Find the passage based on id
+    const passage = passagePrev?.passage?.find((p) => p.id === parseInt(id)); // Find the passage based on id
+
+   
+    
+  
+    const [isDrawerOpen, setIsDrawerOpen] = useState(false); // State for drawer
+  
+    if (!passage) {
+      return <div>Passage not found!</div>;
+    }
+  
+    // Toggle Drawer
+    const showDrawer = () => {
+      setIsDrawerOpen(true);
+    };
+  
+    const closeDrawer = () => {
+      setIsDrawerOpen(false);
+    };
+    const handleTakeTest = () => {
+        navigate("/tests"); // Navigate to the list of Cambridge tests
+      };
 
   return (
     <div className="flex flex-col min-h-[100%] overflow-hidden">
+              <div className="flex justify-between items-center bg-gray-400 text-white px-6 py-2 shadow-md">
+              <Button type="primary"  onClick={handleTakeTest}>
+          Home
+        </Button>
+                
+        <h1 className="text-xl font-bold text-gray-900">{passagePrev.Title} </h1>
+        <Button type="primary" onClick={showDrawer}>
+          Answer
+        </Button>
+      </div>
+
+
       {/* Main Content Area */}
       <div className="flex flex-grow p-6 space-x-4">
         {/* Passage Section (60%) */}
@@ -48,6 +87,18 @@ const Passage = () => {
 
         </div>
       </div>
+      <Drawer
+      className="w-[40%]"
+        title="Questions"
+        placement="right"
+        onClose={closeDrawer}
+        open={isDrawerOpen}
+      >
+        <h2 className="text-[25px] my-4">Passage {id} Answer</h2>
+                  <div dangerouslySetInnerHTML={{ __html: passage.answers }} />
+
+       
+      </Drawer>
     </div>
   );
 };

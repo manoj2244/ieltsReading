@@ -1,32 +1,22 @@
 import React from "react";
-import { Button, Card } from "antd";
 import { useNavigate } from "react-router-dom";
 
 const WelcomePage = () => {
   const navigate = useNavigate();
 
-  return (
-    <div className="flex flex-col min-h-screen bg-gray-100">
-      <div className="flex-grow flex items-center justify-center">
-        <Card className="p-8 shadow-lg" style={{ width: 400 }}>
-          <h1 className="text-2xl font-bold text-center mb-4">Welcome to IELTS Reading</h1>
-          <p className="text-center mb-6">
-            Test your reading skills with passages designed for IELTS practice.
-          </p>
-          <Button
-            type="primary"
-            block
-            onClick={() => navigate("/test/passage/1")}
-          >
-            Take a Test
-          </Button>
-        </Card>
-      </div>
+  const handleTakeTest = () => {
+    navigate("/tests"); // Navigate to the list of Cambridge tests
+  };
 
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white text-center py-4">
-        &copy; 2025 Manoj Nepali. All rights reserved.
-      </footer>
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+      <h1 className="text-3xl font-bold mb-4">Welcome to IELTS Reading Platform</h1>
+      <button
+        onClick={handleTakeTest}
+        className="px-6 py-3 bg-blue-500 text-white font-semibold rounded shadow hover:bg-blue-400"
+      >
+        Take Test
+      </button>
     </div>
   );
 };

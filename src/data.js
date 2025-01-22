@@ -1,339 +1,351 @@
 // data.js
 
 export const passages = [
-  {
-    id: 1,
-    heading: `<p><em><span style="font-size: large;">You should
-                                                                                spend about 20 minutes on </span><strong
-                                                                                style="font-size: large;">Questions</strong><span
-                                                                                style="font-size: large;">
-                                                                            </span><strong
-                                                                                style="font-size: large;">1-13</strong><span
-                                                                                style="font-size: large;">, which are
-                                                                                based on Reading Passage 1
-                                                                                below.</span></em></p>`,
-    Title: ` <h2 style="text-align: center;"><span
-                                                                            style="font-size: xx-large;"><strong>How
-                                                                                tennis rackets have
-                                                                                changed</strong></span></h2>`,
 
-
-    content: `   <p><span style="font-size: large;">In 2016, the
-                                                                            British professional tennis player Andy
-                                                                            Murray was ranked as the world’s number one.
-                                                                            It was an incredible achievement by any
-                                                                            standard – made even more remarkable by the
-                                                                            fact that he did this during a period
-                                                                            considered to be one of the strongest in the
-                                                                            sport’s history, competing against the likes
-                                                                            of Rafael Nadal, Roger Federer and Novak
-                                                                            Djokovic, to name just a few. Yet five years
-                                                                            previously, he had been regarded as a
-                                                                            talented outsider who entered but never won
-                                                                            the major tournaments.</span></p>
-                                                                    <p><span style="font-size: large;">Of the changes
-                                                                            that account for this transformation, one
-                                                                            was visible and widely publicised: in 2011,
-                                                                            Murray invited former number one player Ivan
-                                                                            Lendl onto his coaching team – a valuable
-                                                                            addition that had a visible impact on the
-                                                                            player’s playing style. Another change was
-                                                                            so subtle as to pass more or less unnoticed.
-                                                                            Like many players, Murray has long preferred
-                                                                            a racket that consists of two types of
-                                                                            string: one for the mains (verticals) and
-                                                                            another for the crosses (horizontals). While
-                                                                            he continued to use natural string in the
-                                                                            crosses, in 2012 he switched to a synthetic
-                                                                            string for the mains. A small change,
-                                                                            perhaps, but its importance should not be
-                                                                            underestimated.</span></p>
-                                                                    <p><span style="font-size: large;">The modification
-                                                                            that Murray made is just one of a number of
-                                                                            options available to players looking to
-                                                                            tweak their rackets in order to improve
-                                                                            their games. ‘Touring professionals have
-                                                                            their rackets customised to their specific
-                                                                            needs,’ says Colin Triplow, a UK-based
-                                                                            professional racket stringer. ‘It’s a highly
-                                                                            important part of performance maximisation.’
-                                                                            Consequently, the specific rackets used by
-                                                                            the world’s elite are not actually readily
-                                                                            available to the public; rather, each racket
-                                                                            is individually made to suit the player who
-                                                                            uses it. Take the US professional tennis
-                                                                            players Mike and Bob Bryan, for example:
-                                                                            ‘We’re very particular with our racket
-                                                                            specifications,’ they say. ‘All our rackets
-                                                                            are sent from our manufacturer to Tampa,
-                                                                            Florida, where our frames go through a . . .
-                                                                            thorough customisation process.’ They
-                                                                            explain how they have adjusted not only
-                                                                            racket length, but even experimented with
-                                                                            different kinds of paint. The rackets they
-                                                                            use now weigh more than the average model
-                                                                            and also have a denser string pattern (i.e.
-                                                                            more crosses and mains).</span></p>
-                                                                    <p><span style="font-size: large;">The primary
-                                                                            reason for these modifications is simple: as
-                                                                            the line between winning and losing becomes
-                                                                            thinner and thinner, even these slight
-                                                                            changes become more and more important. As a
-                                                                            result, players and their teams are becoming
-                                                                            increasingly creative with the modifications
-                                                                            to their rackets as they look to maximise
-                                                                            their competitive advantage.</span></p>
-                                                                    <p><span style="font-size: large;">Racket
-                                                                            modifications mainly date back to the 1970s,
-                                                                            when the amateur German tennis player Werner
-                                                                            Fischer started playing with the so-called
-                                                                            spaghetti-strung racket. It created a string
-                                                                            bed that generated so much topspin that it
-                                                                            was quickly banned by the International
-                                                                            Tennis Federation. However, within a decade
-                                                                            or two, racket modification became a
-                                                                            regularity. Today it is, in many ways, an
-                                                                            aspect of the game that is equal in
-                                                                            significance to nutrition or
-                                                                            training.</span></p>
-                                                                    <p><span style="font-size: large;">Modifications can
-                                                                            be divided into two categories: those to the
-                                                                            string bed and those to the racket frame.
-                                                                            The former is far more common than the
-                                                                            latter: the choice of the strings and the
-                                                                            tension with which they are installed is
-                                                                            something that nearly all professional
-                                                                            players experiment with. They will
-                                                                            continually change it depending on various
-                                                                            factors including the court surface,
-                                                                            climatic conditions, and game styles. Some
-                                                                            will even change it depending on how they
-                                                                            feel at the time.</span></p>
-                                                                    <p><span style="font-size: large;">At one time, all
-                                                                            tennis rackets were strung with natural gut
-                                                                            made from the outer layer of sheep or cow
-                                                                            intestines. This all changed in the early
-                                                                            1990s with the development of synthetic
-                                                                            strings that were cheaper and more durable.
-                                                                            They are made from three materials: nylon
-                                                                            (relatively durable and affordable), Kevlar
-                                                                            (too stiff to be used alone) or co-polyester
-                                                                            (polyester combined with additives that
-                                                                            enhance its performance). Even so, many
-                                                                            professional players continue to use a
-                                                                            ‘hybrid set-up’, where a combination of both
-                                                                            synthetic and natural strings are
-                                                                            used.</span></p>
-                                                                    <p><span style="font-size: large;">Of the
-                                                                            synthetics, co-polyester is by far the most
-                                                                            widely used. It’s a perfect fit for the
-                                                                            style of tennis now played, where players
-                                                                            tend to battle it out from the back of the
-                                                                            court rather than coming to the net. Studies
-                                                                            indicate that the average spin from a
-                                                                            co-polyester string is 25% greater than that
-                                                                            from natural string or other synthetics. In
-                                                                            a sense, the development of co-polyester
-                                                                            strings has revolutionised the game.</span>
-                                                                    </p>
-                                                                    <p><span style="font-size: large;">However, many
-                                                                            players go beyond these basic adjustments to
-                                                                            the strings and make changes to the racket
-                                                                            frame itself. For example, much of the
-                                                                            serving power of US professional player Pete
-                                                                            Sampras was attributed to the addition of
-                                                                            four to five lead weights onto his rackets,
-                                                                            and today many professionals have the weight
-                                                                            adjusted during the manufacturing
-                                                                            process.</span></p>
-                                                                    <p><span style="font-size: large;">Other changes to
-                                                                            the frame involve the handle. Players have
-                                                                            individual preferences for the shape of the
-                                                                            handle and some will have the handle of one
-                                                                            racket moulded onto the frame of a different
-                                                                            racket. Other players make different
-                                                                            changes. The professional Portuguese player
-                                                                            Gonçalo Oliveira replaced the original grips
-                                                                            of his rackets with something thinner
-                                                                            because they had previously felt
-                                                                            uncomfortable to hold.</span></p>
-                                                                    <p><span style="font-size: large;">Racket
-                                                                            customisation and modification have pushed
-                                                                            the standards of the game to greater levels
-                                                                            that few could have anticipated in the days
-                                                                            of natural strings and heavy, wooden frames,
-                                                                            and it’s exciting to see what further
-                                                                            developments there will be in the
-                                                                            future.</span></p>`,
-
-
-    questions: `  <div class="et_pb_row et_pb_row_1">
-                                                        <div
-                                                            class="et_pb_column et_pb_column_4_4 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
-
-
-
-
-                                                            <div
-                                                                class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
-
-
-
-
-                                                                <div class="et_pb_text_inner">
-                                                                    <p><span
-                                                                            style="font-size: x-large; color: #353535;"><strong>Questions
-                                                                                1–7</strong></span></p>
-                                                                    <p><span style="font-size: large;">Do the following
-                                                                            statements agree with the information given
-                                                                            in Reading Passage 1?</span></p>
-                                                                    <p><span style="font-size: large;"><em>In boxes
-                                                                                1–7</em> <em>on your answer sheet,
-                                                                                write</em></span></p>
-                                                                    <p style="padding-left: 40px;"><span
-                                                                            style="font-size: large;"><strong><em>TRUE</em></strong><em>
-                                                                                if the statement agrees with the
-                                                                                information</em></span></p>
-                                                                    <p style="padding-left: 40px;"><span
-                                                                            style="font-size: large;"><strong><em>FALSE</em></strong><em>
-                                                                                if the statement contradicts the
-                                                                                information</em></span></p>
-                                                                    <p style="padding-left: 40px;"><span
-                                                                            style="font-size: large;"><strong><em>NOT</em></strong><em>
-                                                                                <strong>GIVEN</strong> if there is no
-                                                                                information on this</em></span></p>
+    {
+        id:"19-1",
+        Title:"Cambridge 19 Test 1",
+        passage:[
+            {
+                id: 1,
+                heading: `<p><em><span style="font-size: large;">You should
+                                                                                        spend about 20 minutes on </span><strong
+                                                                                        style="font-size: large;">Questions</strong><span
+                                                                                        style="font-size: large;">
+                                                                                    </span><strong
+                                                                                        style="font-size: large;">1-13</strong><span
+                                                                                        style="font-size: large;">, which are
+                                                                                        based on Reading Passage 1
+                                                                                        below.</span></em></p>`,
+                Title: ` <h2 style="text-align: center;"><span
+                                                                                    style="font-size: xx-large;"><strong>How
+                                                                                        tennis rackets have
+                                                                                        changed</strong></span></h2>`,
+        
+                content: `   <p><span style="font-size: large;">In 2016, the
+                                                                                    British professional tennis player Andy
+                                                                                    Murray was ranked as the world’s number one.
+                                                                                    It was an incredible achievement by any
+                                                                                    standard – made even more remarkable by the
+                                                                                    fact that he did this during a period
+                                                                                    considered to be one of the strongest in the
+                                                                                    sport’s history, competing against the likes
+                                                                                    of Rafael Nadal, Roger Federer and Novak
+                                                                                    Djokovic, to name just a few. Yet five years
+                                                                                    previously, he had been regarded as a
+                                                                                    talented outsider who entered but never won
+                                                                                    the major tournaments.</span></p>
+                                                                            <p><span style="font-size: large;">Of the changes
+                                                                                    that account for this transformation, one
+                                                                                    was visible and widely publicised: in 2011,
+                                                                                    Murray invited former number one player Ivan
+                                                                                    Lendl onto his coaching team – a valuable
+                                                                                    addition that had a visible impact on the
+                                                                                    player’s playing style. Another change was
+                                                                                    so subtle as to pass more or less unnoticed.
+                                                                                    Like many players, Murray has long preferred
+                                                                                    a racket that consists of two types of
+                                                                                    string: one for the mains (verticals) and
+                                                                                    another for the crosses (horizontals). While
+                                                                                    he continued to use natural string in the
+                                                                                    crosses, in 2012 he switched to a synthetic
+                                                                                    string for the mains. A small change,
+                                                                                    perhaps, but its importance should not be
+                                                                                    underestimated.</span></p>
+                                                                            <p><span style="font-size: large;">The modification
+                                                                                    that Murray made is just one of a number of
+                                                                                    options available to players looking to
+                                                                                    tweak their rackets in order to improve
+                                                                                    their games. ‘Touring professionals have
+                                                                                    their rackets customised to their specific
+                                                                                    needs,’ says Colin Triplow, a UK-based
+                                                                                    professional racket stringer. ‘It’s a highly
+                                                                                    important part of performance maximisation.’
+                                                                                    Consequently, the specific rackets used by
+                                                                                    the world’s elite are not actually readily
+                                                                                    available to the public; rather, each racket
+                                                                                    is individually made to suit the player who
+                                                                                    uses it. Take the US professional tennis
+                                                                                    players Mike and Bob Bryan, for example:
+                                                                                    ‘We’re very particular with our racket
+                                                                                    specifications,’ they say. ‘All our rackets
+                                                                                    are sent from our manufacturer to Tampa,
+                                                                                    Florida, where our frames go through a . . .
+                                                                                    thorough customisation process.’ They
+                                                                                    explain how they have adjusted not only
+                                                                                    racket length, but even experimented with
+                                                                                    different kinds of paint. The rackets they
+                                                                                    use now weigh more than the average model
+                                                                                    and also have a denser string pattern (i.e.
+                                                                                    more crosses and mains).</span></p>
+                                                                            <p><span style="font-size: large;">The primary
+                                                                                    reason for these modifications is simple: as
+                                                                                    the line between winning and losing becomes
+                                                                                    thinner and thinner, even these slight
+                                                                                    changes become more and more important. As a
+                                                                                    result, players and their teams are becoming
+                                                                                    increasingly creative with the modifications
+                                                                                    to their rackets as they look to maximise
+                                                                                    their competitive advantage.</span></p>
+                                                                            <p><span style="font-size: large;">Racket
+                                                                                    modifications mainly date back to the 1970s,
+                                                                                    when the amateur German tennis player Werner
+                                                                                    Fischer started playing with the so-called
+                                                                                    spaghetti-strung racket. It created a string
+                                                                                    bed that generated so much topspin that it
+                                                                                    was quickly banned by the International
+                                                                                    Tennis Federation. However, within a decade
+                                                                                    or two, racket modification became a
+                                                                                    regularity. Today it is, in many ways, an
+                                                                                    aspect of the game that is equal in
+                                                                                    significance to nutrition or
+                                                                                    training.</span></p>
+                                                                            <p><span style="font-size: large;">Modifications can
+                                                                                    be divided into two categories: those to the
+                                                                                    string bed and those to the racket frame.
+                                                                                    The former is far more common than the
+                                                                                    latter: the choice of the strings and the
+                                                                                    tension with which they are installed is
+                                                                                    something that nearly all professional
+                                                                                    players experiment with. They will
+                                                                                    continually change it depending on various
+                                                                                    factors including the court surface,
+                                                                                    climatic conditions, and game styles. Some
+                                                                                    will even change it depending on how they
+                                                                                    feel at the time.</span></p>
+                                                                            <p><span style="font-size: large;">At one time, all
+                                                                                    tennis rackets were strung with natural gut
+                                                                                    made from the outer layer of sheep or cow
+                                                                                    intestines. This all changed in the early
+                                                                                    1990s with the development of synthetic
+                                                                                    strings that were cheaper and more durable.
+                                                                                    They are made from three materials: nylon
+                                                                                    (relatively durable and affordable), Kevlar
+                                                                                    (too stiff to be used alone) or co-polyester
+                                                                                    (polyester combined with additives that
+                                                                                    enhance its performance). Even so, many
+                                                                                    professional players continue to use a
+                                                                                    ‘hybrid set-up’, where a combination of both
+                                                                                    synthetic and natural strings are
+                                                                                    used.</span></p>
+                                                                            <p><span style="font-size: large;">Of the
+                                                                                    synthetics, co-polyester is by far the most
+                                                                                    widely used. It’s a perfect fit for the
+                                                                                    style of tennis now played, where players
+                                                                                    tend to battle it out from the back of the
+                                                                                    court rather than coming to the net. Studies
+                                                                                    indicate that the average spin from a
+                                                                                    co-polyester string is 25% greater than that
+                                                                                    from natural string or other synthetics. In
+                                                                                    a sense, the development of co-polyester
+                                                                                    strings has revolutionised the game.</span>
+                                                                            </p>
+                                                                            <p><span style="font-size: large;">However, many
+                                                                                    players go beyond these basic adjustments to
+                                                                                    the strings and make changes to the racket
+                                                                                    frame itself. For example, much of the
+                                                                                    serving power of US professional player Pete
+                                                                                    Sampras was attributed to the addition of
+                                                                                    four to five lead weights onto his rackets,
+                                                                                    and today many professionals have the weight
+                                                                                    adjusted during the manufacturing
+                                                                                    process.</span></p>
+                                                                            <p><span style="font-size: large;">Other changes to
+                                                                                    the frame involve the handle. Players have
+                                                                                    individual preferences for the shape of the
+                                                                                    handle and some will have the handle of one
+                                                                                    racket moulded onto the frame of a different
+                                                                                    racket. Other players make different
+                                                                                    changes. The professional Portuguese player
+                                                                                    Gonçalo Oliveira replaced the original grips
+                                                                                    of his rackets with something thinner
+                                                                                    because they had previously felt
+                                                                                    uncomfortable to hold.</span></p>
+                                                                            <p><span style="font-size: large;">Racket
+                                                                                    customisation and modification have pushed
+                                                                                    the standards of the game to greater levels
+                                                                                    that few could have anticipated in the days
+                                                                                    of natural strings and heavy, wooden frames,
+                                                                                    and it’s exciting to see what further
+                                                                                    developments there will be in the
+                                                                                    future.</span></p>`,
+        
+                questions: `  <div class="et_pb_row et_pb_row_1">
+                                                                <div
+                                                                    class="et_pb_column et_pb_column_4_4 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
+        
+        
+        
+        
+                                                                    <div
+                                                                        class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
+        
+        
+        
+        
+                                                                        <div class="et_pb_text_inner">
+                                                                            <p><span
+                                                                                    style="font-size: x-large; color: #353535;"><strong>Questions
+                                                                                        1–7</strong></span></p>
+                                                                            <p><span style="font-size: large;">Do the following
+                                                                                    statements agree with the information given
+                                                                                    in Reading Passage 1?</span></p>
+                                                                            <p><span style="font-size: large;"><em>In boxes
+                                                                                        1–7</em> <em>on your answer sheet,
+                                                                                        write</em></span></p>
+                                                                            <p style="padding-left: 40px;"><span
+                                                                                    style="font-size: large;"><strong><em>TRUE</em></strong><em>
+                                                                                        if the statement agrees with the
+                                                                                        information</em></span></p>
+                                                                            <p style="padding-left: 40px;"><span
+                                                                                    style="font-size: large;"><strong><em>FALSE</em></strong><em>
+                                                                                        if the statement contradicts the
+                                                                                        information</em></span></p>
+                                                                            <p style="padding-left: 40px;"><span
+                                                                                    style="font-size: large;"><strong><em>NOT</em></strong><em>
+                                                                                        <strong>GIVEN</strong> if there is no
+                                                                                        information on this</em></span></p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
+        
+        
+        
+        
+                                                                        <div class="et_pb_text_inner">
+                                                                            <p><span style="color: #353535; font-size: large;"><strong>1</strong>
+                                                                                    People had expected Andy Murray to become
+                                                                                    the world’s top tennis player for at least
+                                                                                    five years before 2016.</span></p>
+                                                                            <p><span style="color: #353535; font-size: large;"><strong>2</strong>
+                                                                                    The change that Andy Murray made to his
+                                                                                    rackets attracted a lot of attention.</span>
+                                                                            </p>
+                                                                            <p><span style="color: #353535; font-size: large;"><strong>3</strong>
+                                                                                    Most of the world’s top players take a
+                                                                                    professional racket stringer on tour with
+                                                                                    them.</span></p>
+                                                                            <p><span style="color: #353535; font-size: large;"><strong>4</strong>
+                                                                                    Mike and Bob Bryan use rackets that are
+                                                                                    light in comparison to the majority of
+                                                                                    rackets.</span></p>
+                                                                            <p><span style="color: #353535; font-size: large;"><strong>5</strong>
+                                                                                    Werner Fischer played with a
+                                                                                    spaghetti-strung racket that he designed
+                                                                                    himself.</span></p>
+                                                                            <p><span style="color: #353535; font-size: large;"><strong>6</strong>
+                                                                                    The weather can affect how professional
+                                                                                    players adjust the strings on their
+                                                                                    rackets.</span></p>
+                                                                            <p><span style="color: #353535; font-size: large;"><strong>7</strong>
+                                                                                    It was believed that the change Pete Sampras
+                                                                                    made to his rackets contributed to his
+                                                                                    strong serve.</span></p>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
+        
+        
+        
+        
                                                             </div>
-                                                            <div
-                                                                class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
-
-
-
-
-                                                                <div class="et_pb_text_inner">
-                                                                    <p><span style="color: #353535; font-size: large;"><strong>1</strong>
-                                                                            People had expected Andy Murray to become
-                                                                            the world’s top tennis player for at least
-                                                                            five years before 2016.</span></p>
-                                                                    <p><span style="color: #353535; font-size: large;"><strong>2</strong>
-                                                                            The change that Andy Murray made to his
-                                                                            rackets attracted a lot of attention.</span>
-                                                                    </p>
-                                                                    <p><span style="color: #353535; font-size: large;"><strong>3</strong>
-                                                                            Most of the world’s top players take a
-                                                                            professional racket stringer on tour with
-                                                                            them.</span></p>
-                                                                    <p><span style="color: #353535; font-size: large;"><strong>4</strong>
-                                                                            Mike and Bob Bryan use rackets that are
-                                                                            light in comparison to the majority of
-                                                                            rackets.</span></p>
-                                                                    <p><span style="color: #353535; font-size: large;"><strong>5</strong>
-                                                                            Werner Fischer played with a
-                                                                            spaghetti-strung racket that he designed
-                                                                            himself.</span></p>
-                                                                    <p><span style="color: #353535; font-size: large;"><strong>6</strong>
-                                                                            The weather can affect how professional
-                                                                            players adjust the strings on their
-                                                                            rackets.</span></p>
-                                                                    <p><span style="color: #353535; font-size: large;"><strong>7</strong>
-                                                                            It was believed that the change Pete Sampras
-                                                                            made to his rackets contributed to his
-                                                                            strong serve.</span></p>
+                                                            <div class="et_pb_row et_pb_row_2">
+                                                                <div
+                                                                    class="et_pb_column et_pb_column_4_4 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough et-last-child">
+        
+        
+        
+        
+                                                                    <div
+                                                                        class="et_pb_module et_pb_text et_pb_text_4  et_pb_text_align_left et_pb_bg_layout_light">
+        
+        
+        
+        
+                                                                        <div class="et_pb_text_inner">
+                                                                            <h3><span style="font-size: x-large;"><strong>Questions
+                                                                                        8–13</strong></span></h3>
+                                                                            <p><span style="font-size: large;"><em>Complete the
+                                                                                        notes below.</em></span></p>
+                                                                            <p><span style="font-size: large;"><em>Choose
+                                                                                        <strong>ONE WORD ONLY</strong> from the
+                                                                                        passage for each answer.</em></span></p>
+                                                                            <p><span style="font-size: large;"><em>Write your
+                                                                                        answers in boxes 8–13 on your answer
+                                                                                        sheet.</em></span></p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="et_pb_module et_pb_text et_pb_text_5  et_pb_text_align_left et_pb_bg_layout_light">
+        
+        
+        
+        
+                                                                        <div class="et_pb_text_inner">
+                                                                            <p style="text-align: center;"><span
+                                                                                    style="font-size: x-large;"><strong>The
+                                                                                        tennis racket and how it has
+                                                                                        changed</strong></span></p>
+                                                                            <p><span style="font-size: large;">● Mike and Bob
+                                                                                    Bryan made changes to the types of
+                                                                                    <strong>8</strong>………………… used on their
+                                                                                    racket frames.</span></p>
+                                                                            <p><span style="font-size: large;">● Players were
+                                                                                    not allowed to use the spaghetti-strung
+                                                                                    racket because of the amount of
+                                                                                    <strong>9</strong>………………… it created.</span>
+                                                                            </p>
+                                                                            <p><span style="font-size: large;">● Changes to
+                                                                                    rackets can be regarded as being as
+                                                                                    important as players’ diets or the
+                                                                                    <strong>10</strong>………………… they do.</span>
+                                                                            </p>
+                                                                            <p><span style="font-size: large;">● All rackets
+                                                                                    used to have natural strings made from the
+                                                                                    <strong>11</strong>………………… of
+                                                                                    animals.</span></p>
+                                                                            <p><span style="font-size: large;">● Pete Sampras
+                                                                                    had metal <strong>12</strong>………………… put
+                                                                                    into the frames of his rackets.</span></p>
+                                                                            <p><span style="font-size: large;">● Gonçalo
+                                                                                    Oliveira changed the
+                                                                                    <strong>13</strong>………………… on his racket
+                                                                                    handles.</span></p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="et_pb_module et_pb_code et_pb_code_0">
+        
+        
+        
+        
+                                                                   
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                        </div>
+        
+        
+        
+        
+                                                            </div>`,
+                answers: `			<div class="et_pb_toggle_content clearfix"><p>1   FALSE</p>
+        <p>2   FALSE</p>
+        <p>3   NOT GIVEN</p>
+        <p>4   FALSE</p>
+        <p>5   NOT GIVEN</p>
+        <p>6   TRUE</p>
+        <p>7   TRUE</p>
+        <p>8   paint</p>
+        <p>9   topspin</p>
+        <p>10   training</p>
+        <p>11   intestines / gut</p>
+        <p>12   weights</p>
+        <p>13   grips</p></div>`,
 
-
-
-
-                                                    </div>
-                                                    <div class="et_pb_row et_pb_row_2">
-                                                        <div
-                                                            class="et_pb_column et_pb_column_4_4 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough et-last-child">
-
-
-
-
-                                                            <div
-                                                                class="et_pb_module et_pb_text et_pb_text_4  et_pb_text_align_left et_pb_bg_layout_light">
-
-
-
-
-                                                                <div class="et_pb_text_inner">
-                                                                    <h3><span style="font-size: x-large;"><strong>Questions
-                                                                                8–13</strong></span></h3>
-                                                                    <p><span style="font-size: large;"><em>Complete the
-                                                                                notes below.</em></span></p>
-                                                                    <p><span style="font-size: large;"><em>Choose
-                                                                                <strong>ONE WORD ONLY</strong> from the
-                                                                                passage for each answer.</em></span></p>
-                                                                    <p><span style="font-size: large;"><em>Write your
-                                                                                answers in boxes 8–13 on your answer
-                                                                                sheet.</em></span></p>
-                                                                </div>
-                                                            </div>
-                                                            <div
-                                                                class="et_pb_module et_pb_text et_pb_text_5  et_pb_text_align_left et_pb_bg_layout_light">
-
-
-
-
-                                                                <div class="et_pb_text_inner">
-                                                                    <p style="text-align: center;"><span
-                                                                            style="font-size: x-large;"><strong>The
-                                                                                tennis racket and how it has
-                                                                                changed</strong></span></p>
-                                                                    <p><span style="font-size: large;">● Mike and Bob
-                                                                            Bryan made changes to the types of
-                                                                            <strong>8</strong>………………… used on their
-                                                                            racket frames.</span></p>
-                                                                    <p><span style="font-size: large;">● Players were
-                                                                            not allowed to use the spaghetti-strung
-                                                                            racket because of the amount of
-                                                                            <strong>9</strong>………………… it created.</span>
-                                                                    </p>
-                                                                    <p><span style="font-size: large;">● Changes to
-                                                                            rackets can be regarded as being as
-                                                                            important as players’ diets or the
-                                                                            <strong>10</strong>………………… they do.</span>
-                                                                    </p>
-                                                                    <p><span style="font-size: large;">● All rackets
-                                                                            used to have natural strings made from the
-                                                                            <strong>11</strong>………………… of
-                                                                            animals.</span></p>
-                                                                    <p><span style="font-size: large;">● Pete Sampras
-                                                                            had metal <strong>12</strong>………………… put
-                                                                            into the frames of his rackets.</span></p>
-                                                                    <p><span style="font-size: large;">● Gonçalo
-                                                                            Oliveira changed the
-                                                                            <strong>13</strong>………………… on his racket
-                                                                            handles.</span></p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="et_pb_module et_pb_code et_pb_code_0">
-
-
-
-
-                                                           
-                                                            </div>
-                                                        </div>
-
-
-
-
-                                                    </div>`,
-    answers: [
-      "The main topic is about freedom and flexibility.",
-      "The word 'liberty' refers to freedom from strict rules.",
-      "The last paragraph emphasizes the importance of personal choices.",
-      "The tone of the author is optimistic and encouraging.",
-    ],
-  },
-  {
-    id: 2,
-    heading: `<p><em><span style="font-size: large;">You should
+            },
+     
+    {
+        id: 2,
+        heading: `<p><em><span style="font-size: large;">You should
                                                                                 spend about 20 minutes on </span><strong
                                                                                 style="font-size: large;">Questions</strong><span
                                                                                 style="font-size: large;">
@@ -342,7 +354,7 @@ export const passages = [
                                                                                 style="font-size: large;">, which are
                                                                                 based on Reading Passage 2
                                                                                 below.</span></em></p>`,
-    Title: `    <h2 style="text-align: center;"><span
+        Title: `    <h2 style="text-align: center;"><span
                                                                             style="font-size: xx-large;"><strong>The
                                                                                 pirates of the ancient
                                                                                 Mediterranean</strong></span></h2>
@@ -352,7 +364,7 @@ export const passages = [
                                                                                 around the Mediterranean, attacking
                                                                                 ships and avoiding pursuers</em></span>
                                                                     </p>`,
-    content: `  <p><span
+        content: `  <p><span
                                                                             style="font-size: large;"><strong>A</strong></span>
                                                                     </p>
                                                                     <p><span style="font-size: large;">When one mentions
@@ -531,7 +543,7 @@ export const passages = [
                                                                             menace, Rome got productive farmers that
                                                                             further boosted its economy.</span></p>
                                                                     <p><span style="font-size: large;"></span></p>`,
-    questions: `  <div class="et_pb_row et_pb_row_4">
+        questions: `  <div class="et_pb_row et_pb_row_4">
                                                         <div
                                                             class="et_pb_column et_pb_column_4_4 et_pb_column_4  et_pb_css_mix_blend_mode_passthrough et-last-child">
 
@@ -800,20 +812,26 @@ export const passages = [
 
                                                     </div>
 `,
-    answers: [
-      "The central idea is about making choices based on freedom.",
-      "The author encourages readers to take control of their decisions.",
-      "The second paragraph describes how individuals can benefit from making empowered choices.",
-    ],
-  },
-  {
-    id: 3,
-    heading: ` <p><span style="font-size: large;"><em>You should
+        answers: `		<div class="et_pb_toggle_content clearfix"><p>14   D</p>
+<p>15   G</p>
+<p>16   C</p>
+<p>17   A</p>
+<p>18   G</p>
+<p>19   B</p>
+<p>20&amp;21   B, D</p>
+<p>22&amp;23   C, E</p>
+<p>24   grain</p>
+<p>25   punishment</p>
+<p>26   ransom</p></div>`,
+    },
+    {
+        id: 3,
+        heading: ` <p><span style="font-size: large;"><em>You should
                                                                                 spend about 20 minutes on
                                                                                 <strong>Questions 27–40</strong>, which
                                                                                 are based on Reading Passage 3
                                                                                 below.</em></span></p>`,
-Title: `    <h2 style="text-align: center;"><span
+        Title: `    <h2 style="text-align: center;"><span
                                                                             style="font-size: xx-large;"><strong>The
                                                                                 persistence and peril of
                                                                                 misinformation</strong></span></h2>
@@ -823,7 +841,7 @@ Title: `    <h2 style="text-align: center;"><span
                                                                                 verify information and discusses some of
                                                                                 the challenges of battling widespread
                                                                                 falsehoods</em></span></p>`,
-    content: `    <p><span style="font-size: large;">Misinformation –
+        content: `    <p><span style="font-size: large;">Misinformation –
                                                                             both deliberately promoted and accidentally
                                                                             shared – is perhaps an inevitable part of
                                                                             the world in which we live, but it is not a
@@ -979,7 +997,7 @@ Title: `    <h2 style="text-align: center;"><span
                                                                             coordinated efforts over time, rather than
                                                                             any singular one-time panacea we could hope
                                                                             to offer.</span></p>`,
-    questions: ` <div class="et_pb_row et_pb_row_9">
+        questions: ` <div class="et_pb_row et_pb_row_9">
                                                         <div
                                                             class="et_pb_column et_pb_column_4_4 et_pb_column_9  et_pb_css_mix_blend_mode_passthrough et-last-child">
 
@@ -1317,9 +1335,480 @@ Title: `    <h2 style="text-align: center;"><span
 
 
                                                     </div>`,
-    answers: [
-      "The main message is about finding balance in personal decisions.",
-      "The author believes that personal freedom is essential for growth.",
-    ],
-  },
-];
+        answers: `<div class="et_pb_toggle_content clearfix"><p>27   D</p>
+<p>28   A</p>
+<p>29   C</p>
+<p>30   D</p>
+<p>31   G</p>
+<p>32   J</p>
+<p>33   H</p>
+<p>34   B</p>
+<p>35   E</p>
+<p>36   C</p>
+<p>37   YES</p>
+<p>38   NOT GIVEN</p>
+<p>39   NO</p>
+<p>40   NOT GIVEN</p></div>`,
+    },
+]
+    }
+
+    ,{
+
+        id:"19-2",
+        Title:"Cambridge 19 Test 2 ",
+        passage:[
+            {
+                id:1,
+                heading:`<p><em><span style="font-size: large;">You should spend about 20 minutes on </span><strong style="font-size: large;">Questions</strong><span style="font-size: large;"> </span><strong style="font-size: large;">1-13</strong><span style="font-size: large;">, which are based on Reading Passage 1 below.</span></em></p>
+`,
+                Title:`				<div class="et_pb_text_inner"><h2 style="text-align: center;"><span style="font-size: xx-large;"><strong>The Industrial Revolution in Britain</strong></span></h2>
+`,
+                content:`<p><span style="font-size: large;">The Industrial Revolution began in Britain in the mid-1700s and by the 1830s and 1840s has spread to many other parts of the world, including the United States. In Britain, it was a period when a largely rural, agrarian* society was transformed into an industrialised, urban one. Goods that had once been crafted by hand started to be produced in mass quantities by machines in factories, thanks to the invention of steam power and the introduction of new machines and manufacturing techniques in textiles, iron-making and other industries.</span></p>
+<p><span style="font-size: large;">The foundations of the Industrial Revolution date back to the early 1700s, when the English inventor Thomas Newcomen designed the first modern steam engine. Called the ‘atmospheric steam engine’, Newcomen’s invention was originally used to power machines that pumped water out of mines. In the 1760s, the Scottish engineer James Watt started to adapt one of Newcomen’s models, and succeeded in making it far more efficient. Watt later worked with the English manufacturer Matthew Boulton to invent a new steam engine driven by both the forward and backward strokes of the piston, while the gear mechanism it was connected to produced rotary motion. It was a key innovation that would allow steam power to spread across British industries.</span></p>
+<p><span style="font-size: large;">The demand for coal, which was a relatively cheap energy source, grew rapidly during the Industrial Revolution, as it was needed to run not only the factories used to produce manufactured goods, but also steam-powered transportation. In the early 1800s, the English engineer Richard Trevithick built a steam-powered locomotive, and by 1830 goods and passengers were being transported between the industrial centres of Manchester and Liverpool. In addition, steam-powered boats and ships were widely used to carry goods along Britain’s canals as well as across the Atlantic.</span></p>
+<p><span style="font-size: large;">Britain had produced textiles like wool, linen and cotton, for hundreds of years, but prior to the Industrial Revolution, the British textile business was a true ‘cottage industry’, with the work performed in small workshops or even homes by individual spinners, weavers and dyers. Starting in the mid-1700s, innovations like the spinning jenny and the power loom made weaving cloth and spinning yarn and thread much easier. With these machines, relatively little labour was required to produce cloth, and the new, mechanised textile factories that opened around the country were quickly able to meet customer demand for cloth both at home and abroad.</span></p>
+<p><span style="font-size: large;">The British iron industry also underwent major change as it adopted new innovations. Chief among the new techniques was the smelting of iron ore with coke (a material made by heating coal) instead of the traditional charcoal. This method was cheaper and produced metals that were of a higher quality, enabling Britain’s iron and steel production to expand in response to demand created by the Napoleonic Wars (1803-15) and the expansion of the railways from the 1830s.</span></p>
+<p><span style="font-size: large;">The latter part of the Industrial Revolution also saw key advances in communication methods, as people increasingly saw the need to communicate efficiently over long distances. In 1837, British inventors William Cooke and Charles Wheatstone patented the first commercial telegraphy system. In the 1830s and 1840s, Samuel Morse and other inventors worked on their own versions in the United States. Cooke and Wheatstone’s system was soon used for railway signalling in the UK. As the speed of the new locomotives increased, it was essential to have a fast and effective means of avoiding collisions.</span></p>
+<p><span style="font-size: large;">The impact of the Industrial Revolution on people’s lives was immense. Although many people in Britain had begun moving to the cities from rural areas before the Industrial Revolution, this accelerated dramatically with industrialisation, as the rise of large factories turned smaller towns into major cities in just a few decades. This rapid urbanisation brought significant challenges, as overcrowded cities suffered from pollution and inadequate sanitation.</span></p>
+<p><span style="font-size: large;">Although industrialisation increased the country’s economic output overall and improved the standard of living for the middle and upper classes, many poor people continued to struggle. Factory workers had to work long hours in dangerous conditions for extremely low wages. These conditions along with the rapid pace of change fuelled opposition to industrialisation. A group of British workers who became known as ‘Luddites’ were British weavers and textile workers who objected to the increased use of mechanised looms and knitting frames. Many had spent years learning their craft, and they feared that unskilled machine operators were robbing them of their livelihood. A few desperate weavers began breaking into factories and smashing textile machines. They called themselves Luddites after Ned Ludd, a young apprentice who was rumoured to have wrecked a textile machine in 1779.</span></p>
+<p><span style="font-size: large;">The first major instances of machine breaking took place in 1811 in the city of Nottingham, and the practice soon spread across the country. Machine-breaking Luddites attacked and burned factories, and in some cases they even exchanged gunfire with company guards and soldiers. The workers wanted employers to stop installing new machinery, but the British government responded to the uprisings by making machine-breaking punishable by death. The unrest finally reached its peak in April 1812, when a few Luddites were shot during an attack on a mill near Huddersfield. In the days that followed, other Luddites were arrested, and dozens were hanged or transported to Australia. By 1813, the Luddite resistance had all but vanished.</span></p>
+<p><span style="font-size: large;">&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;<br /></span><span style="font-size: medium;">* agrarian: relating to the land, especially the use of land for farming</span></p>
+<p><span style="font-size: large;"></span></p>`,
+                questions:`<div class="et_pb_row et_pb_row_1">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: x-large; color: #353535;"><strong>Questions 1–7</strong></span></p>
+<p><span style="font-size: large;"><em>Complete the notes below.</em></span></p>
+<p><span style="font-size: large;"><em>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</em></span></p>
+<p><span style="font-size: large;"><em>Write your answers in boxes 1–7 on your answer sheet.</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3 style="text-align: center;"><span style="font-size: x-large;"><strong>Britain’s Industrial Revolution</strong></span></h3>
+<p><span style="font-size: large;"><strong>Steam power</strong></span></p>
+<p><span style="font-size: large;">●   Newcomen’s steam engine was used in mines to remove water.</span></p>
+<p><span style="font-size: large;">●   In Watt and Boulton’s steam engine, the movement of the <strong>1</strong>………………. was linked to a gear system.</span></p>
+<p><span style="font-size: large;">●   A greater supply of <strong>2</strong>………………. was required to power steam engines.</span></p>
+<p><span style="font-size: large;"><strong></strong></span></p>
+<p><span style="font-size: large;"><strong>Textile industry</strong></span></p>
+<p><span style="font-size: large;">●   Before the Industrial Revolution, spinners and weavers worked at home and in <strong>3</strong>………………. .</span></p>
+<p><span style="font-size: large;">●   Not as much <strong>4</strong>………………. was needed to produce cloth once the spinning jenny and power loom were invented.</span></p>
+<p><span style="font-size: large;"><strong></strong></span></p>
+<p><span style="font-size: large;"><strong>Iron industry</strong></span></p>
+<p><span style="font-size: large;">●   Smelting of iron ore with coke resulted in material that was better <strong>5</strong>………………. .</span></p>
+<p><span style="font-size: large;">●   Demand for iron increased with the growth of the <strong>6</strong>………………. .</span></p>
+<p><span style="font-size: large;"><strong></strong></span></p>
+<p><span style="font-size: large;"><strong>Communications</strong></span></p>
+<p><span style="font-size: large;">●   Cooke and Wheatstone patented the first telegraphy system.</span></p>
+<p><span style="font-size: large;">●   The telegraphy system was used to prevent locomotives colliding.</span></p>
+<p><span style="font-size: large;"><strong></strong></span></p>
+<p><span style="font-size: large;"><strong>Urbanisation</strong></span></p>
+<p><span style="font-size: large;">●   Small towns turned into cities very quickly.</span></p>
+<p><span style="font-size: large;">●   The new cities were dirty, crowded and lacked sufficient <strong>7</strong>………………. .</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_2">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_4  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3><span style="font-size: x-large;"><strong>Questions 8–13</strong></span></h3>
+<p><span style="font-size: large;">Do the following statements agree with the information given in Reading Passage 1?</span></p>
+<p><span style="font-size: large;"><em>In boxes 8–13 on your answer sheet, write</em></span></p>
+<p><span style="font-size: large;"><strong><em>TRUE</em></strong><em>               if the statement agrees with the information</em></span></p>
+<p><span style="font-size: large;"><strong><em>FALSE</em></strong><em>              if the statement contradicts the information</em></span></p>
+<p><span style="font-size: large;"><strong><em>NOT</em></strong><em> <strong>GIVEN</strong>     if there is no information on this</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_5  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>8</strong>   Britain’s canal network grew rapidly so that more goods could be transported around the country.</span></p>
+<p><span style="font-size: large;"><strong>9</strong>   Costs in the iron industry rose when the technique of smelting iron ore with coke was introduced.</span></p>
+<p><span style="font-size: large;"><strong>10</strong>   Samuel Morse’s communication system was more reliable than that developed by William Cooke and Charles Wheatstone.</span></p>
+<p><span style="font-size: large;"><strong>11</strong>   The economic benefits of industrialisation were limited to certain sectors of society.</span></p>
+<p><span style="font-size: large;"><strong>12</strong>   Some skilled weavers believed that the introduction of the new textile machines would lead to job losses.</span></p>
+<p><span style="font-size: large;"><strong>13</strong>   There was some sympathy among local people for the Luddites who were arrested near Huddersfield.</span></p></div>
+			</div>`,
+                answers:`
+
+                		<div class="et_pb_toggle_content clearfix"><p>1   piston</p>
+<p>2   coal</p>
+<p>3   workshops</p>
+<p>4   labour / labor</p>
+<p>5   quality</p>
+<p>6   railway(s)</p>
+<p>7   sanitation</p>
+<p>8   NOT GIVEN</p>
+<p>9   FALSE</p>
+<p>10   NOT GIVEN</p>
+<p>11   TRUE</p>
+<p>12   TRUE</p>
+<p>13   NOT GIVEN</p></div>
+                `
+            },
+            {
+                id:2,
+                heading:`<p><em><span style="font-size: large;">You should spend about 20 minutes on <strong>Questions 14–26</strong>, which are based on Reading Passage 2 below.</span></em></p>
+`,
+                Title:`<h2 style="text-align: center;"><span style="font-size: xx-large;"><strong>Athletes and stress</strong></span></h2>`,
+                content:`<p><span style="font-size: large;"><strong>A</strong></span></p>
+<p><span style="font-size: large;">It isn’t easy being a professional athlete. Not only are the physical demands greater than most people could handle, athletes also face intense psychological pressure during competition. This is something that British tennis player Emma Raducanu wrote about on social media following her withdrawal from the 2021 Wimbledon tournament. Though the young player had been doing well in the tournament, she began having difficulty regulating her breathing and heart rate during a match, which she later attributed to ‘the accumulation of the excitement and the buzz’.</span></p>
+<p><span style="font-size: large;"><strong>B</strong></span></p>
+<p><span style="font-size: large;">For athletes, some level of performance stress is almost unavoidable. But there are many different factors that dictate just how people’s minds and bodies respond to stressful events. Typically, stress is the result of an exchange between two factors: demands and resources. An athlete may feel stressed about an event if they feel the demands on them are greater than they can handle. These demands include the high level of physical and mental effort required to succeed, and also the athlete’s concerns about the difficulty of the event, their chance of succeeding, and any potential dangers such as injury. Resources, on the other hand, are a person’s ability to cope with these demands. These include factors such as the competitor’s degree of confidence, how much they believe they can control the situation’s outcome, and whether they’re looking forward to the event or not.</span></p>
+<p><span style="font-size: large;"><strong>C</strong></span></p>
+<p><span style="font-size: large;">Each new demand or change in circumstances affects whether a person responds positively or negatively to stress. Typically, the more resources a person feels they have in handling the situation, the more positive their stress response. This positive stress response is called a challenge state. But should the person feel there are too many demands placed on them, the more likely they are to experience a negative stress response – known as a threat state. Research shows that the challenge states lead to good performance, while threat states lead to poorer performance. So, in Emma Raducanu’s case, a much larger audience, higher expectations and facing a more skilful opponent, may all have led her to feel there were greater demands being placed on her at Wimbledon – but she didn’t have the resources to tackle them. This led to her experiencing a threat response.</span></p>
+<p><span style="font-size: large;"><strong>D</strong></span></p>
+<p><span style="font-size: large;">Our challenge and threat responses essentially influence how our body responds to stressful situations, as both affect the production of adrenaline and cortisol – also known as ‘stress hormones’. During a challenge state, adrenaline increases the amount of blood pumped from the heart and expands the blood vessels, which allows more energy to be delivered to the muscles and brain. This increase of blood and decrease of pressure in the blood vessels has been consistently related to superior sport performance in everything from cricket batting, to golf putting and football penalty taking. But during a threat state, cortisol inhibits the positive effect of adrenaline, resulting in tighter blood vessels, higher blood pressure, slower psychological responses, and a faster heart rate. In short, a threat state makes people more anxious – they make worse decisions and perform more poorly. In tennis players, cortisol has been associated with more unsuccessful serves and greater anxiety.</span></p>
+<p><span style="font-size: large;"><strong>E</strong></span></p>
+<p><span style="font-size: large;">That said, anxiety is also a common experience for athletes when they’re under pressure. Anxiety can increase heart rate and perspiration, cause heart palpitations, muscle tremors and shortness of breath, as well as headaches, nausea, stomach pain, weakness and a desire to escape in more extreme cases. Anxiety can also reduce concentration and self-control and cause overthinking. The intensity with which a person experiences anxiety depends on the demands and resources they have.  Anxiety may also manifest itself in the form of excitement or nervousness depending on the stress response. Negative stress responses can be damaging to both physical and mental health – and repeated episodes of anxiety coupled with negative responses can increase risk of heart disease and depression.</span></p>
+<p><span style="font-size: large;"><strong>F</strong></span></p>
+<p><span style="font-size: large;">But there are many ways athletes can ensure they respond positively under pressure. Positive stress responses can be promoted through the language that they and others – such as coaches or parents — use. Psychologists can also help athletes change how they see their physiological responses – such as helping them see a higher heart rate as excitement, rather than nerves. Developing psychological skills, such as visualisation, can also help decrease physiological responses to threat. Visualisation may involve the athlete recreating a mental picture of a time when they performed well, or picturing themselves doing well in the future. This can help create a feeling of control over the stressful event. Recreating competitive pressure during training can also help athletes learn how to deal with stress. An example of this might be scoring athletes against their peers to create a sense of competition. This would increase the demands which players experience compared to a normal training session, while still allowing them to practise coping with stress.</span></p>
+<p><span style="font-size: large;"></span></p>`,
+                questions:` <div class="et_pb_row et_pb_row_4">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_4  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_8  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3><span style="font-size: x-large;"><strong>Questions 14–18</strong></span></h3>
+<p><span style="font-size: large;">Reading Passage 2 has six paragraphs, <strong>A–F</strong>.</span></p>
+<p><span style="font-size: large;">Which paragraph contains the following information?</span></p>
+<p><span style="font-size: large;"><em>Write the correct letter, <strong>A–F</strong>, in boxes 14–18 on your answer sheet.</em></span></p>
+<p><span style="font-size: large;"><strong><em>NB</em></strong><em>   You may use any letter more than once.</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_9  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>14 </strong>  reference to two chemical compounds which impact on performance</span></p>
+<p><span style="font-size: large;"><strong>15 </strong>  examples of strategies for minimising the effects of stress</span></p>
+<p><span style="font-size: large;"><strong>16 </strong>  how a sportsperson accounted for their own experience of stress</span></p>
+<p><span style="font-size: large;"><strong>17 </strong>  study results indicating links between stress responses and performance</span></p>
+<p><span style="font-size: large;"><strong>18 </strong>  mention of people who can influence how athletes perceive their stress responses</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_5">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_5  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_10  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: x-large; color: #353535;"><strong>Questions 19–22</strong></span></p>
+<p><span style="font-size: large;"><em>Complete the sentences below.</em></span></p>
+<p><span style="font-size: large;"><em>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</em></span></p>
+<p><span style="font-size: large;"><em>Write your answers in boxes 19–22 on your answer sheet.</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_11  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>19</strong>   Performance stress involves many demands on the athlete, for example, coping with the possible risk of ……………………… .</span></p>
+<p><span style="font-size: large;"><strong>20</strong>   Cortisol can cause tennis players to produce fewer good ……………………… .</span></p>
+<p><span style="font-size: large;"><strong>21</strong>   Psychologists can help athletes to view their physiological responses as the effect of a positive feeling such as ……………………… .</span></p>
+<p><span style="font-size: large;"><strong>22</strong>   ……………………… is an example of a psychological technique which can reduce an athlete’s stress responses.</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_6">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_12  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: x-large; color: #353535;"><strong>Questions 23 and 24</strong></span></p>
+<p><span style="font-size: large;"><em>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</em></span></p>
+<p><span style="font-size: large;"><em>Write the correct letters in boxes 23 and 24 on your answer sheet.</em></span></p>
+<p><span style="font-size: large;">Which <strong>TWO</strong> facts about Emma Raducanu’s withdrawal from the Wimbledon tournament are mentioned in the text?</span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_13  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p style="padding-left: 40px;"><span style="font-size: large;"><strong>A </strong>  the stage at which she dropped out of the tournament</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>B </strong>  symptoms of her performance stress at the tournament</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>C </strong>  measures which she had taken to manage her stress levels</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>D </strong>  aspects of the Wimbledon tournament which increased her stress levels</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>E </strong>  reactions to her social media posts about her experience at Wimbledon</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_7">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_14  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3><span style="font-size: x-large;"><strong>Questions 25 and 26</strong></span></h3>
+<p><span style="font-size: large;"><em>Choose <strong>TWO</strong> letters, <strong>A–E</strong>.</em></span></p>
+<p><span style="font-size: large;"><em>Write the correct letters in boxes 25 and 26 on your answer sheet.</em></span></p>
+<p><span style="font-size: large;">Which <strong>TWO</strong> facts about anxiety are mentioned in Paragraph E of the text?</span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_15  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p style="padding-left: 40px;"><span style="font-size: large;"><strong>A </strong>  the factors which determine how severe it may be</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>B </strong>  how long it takes for its effects to become apparent</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>C </strong>  which of its symptoms is most frequently encountered</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>D </strong>  the types of athletes who are most likely to suffer from it</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>E </strong>  the harm that can result if athletes experience it too often</span></p></div>
+			</div><div class="et_pb_module et_pb_code et_pb_code_1">
+				
+				
+				
+				
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7361163811890432" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-7361163811890432" 
+data-ad-slot="" 
+data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script> 
+(adsbygoogle = window.adsbygoogle || []).push({}); 
+</script>
+</div></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>`,
+                answers:`<div class="et_pb_toggle_content clearfix"><p>14   D</p>
+<p>15   F</p>
+<p>16   A</p>
+<p>17   C</p>
+<p>18   F</p>
+<p>19   injury</p>
+<p>20   serves</p>
+<p>21   excitement</p>
+<p>22   Visualisation / Visualization</p>
+<p>23&amp;24   B, D</p>
+<p>25&amp;26   A, E</p></div>`
+            },
+            {
+                id:3,
+                heading:`<p><span style="font-size: large;"><em>You should spend about 20 minutes on <strong>Questions 27–40</strong>, which are based on Reading Passage 3 below.</em></span></p>
+`,
+                Title:`                    <h2 style="text-align: center;"><span style="font-size: xx-large;"><strong>An inquiry into the existence of the gifted child</strong></span></h2>
+`,
+                content:`
+                <p><span style="font-size: large;">Let us start by looking at a modern ‘genius’, Maryam Mirzakhani, who died at the early age of 40. She was the only woman to win the Fields Medal – the mathematical equivalent of a Nobel prize. It would be easy to assume that someone as special as Mirzakhani must have been one of those ‘gifted’ children, those who have an extraordinary ability in a specific sphere of activity or knowledge. But look closer and a different story emerges. Mirzakhani was born in Tehran, Iran. She went to a highly selective girls’ school but maths wasn’t her interest – reading was. She loved novels and would read anything she could lay her hands on. As for maths, she did rather poorly at it for the first couple of years in her middle school, but became interested when her elder brother told her about what he’d learned. He shared a famous maths problem from a magazine that fascinated her – and she was hooked.</span></p>
+<p><span style="font-size: large;">In adult life it is clear that she was curious, excited by what she did and also resolute in the face of setbacks. One of her comments sums it up. ‘Of course, the most rewarding part is the “Aha” moment, the excitement of discovery and enjoyment of understanding something new … But most of the time, doing mathematics for me is like being on a long hike with no trail and no end in sight.’ That trail took her to the heights of original research into mathematics.</span></p>
+<p><span style="font-size: large;">Is her background unusual? Apparently not. Most Nobel prize winners were unexceptional in childhood. Einstein was slow to talk as a baby. He failed the general part of the entry test to Zurich Polytechnic – though they let him in because of high physics and maths scores. He struggled at work initially, but he kept plugging away and eventually rewrote the laws of Newtonian mechanics with his theory of relativity.</span></p>
+<p><span style="font-size: large;">There has been a considerable amount of research on high performance over the last century that suggests it goes way beyond tested intelligence. On top of that, research is clear that brains are flexible, new neural pathways can be created, and IQ isn’t fixed. For example, just because you can read stories with hundreds of pages at the age of five doesn’t mean you will still be ahead of your contemporaries in your teens.</span></p>
+<p><span style="font-size: large;">While the jury is out on giftedness being innate and other factors potentially making the difference,  what is certain is that the behaviours associated with high levels of performance are replicable and most can be taught – even traits such as curiosity.</span></p>
+<p><span style="font-size: large;">According to my colleague Prof Deborah Eyre, with whom I’ve collaborated on the book <em>Great Minds and How to Grow Them</em>, the latest neuroscience and psychological research suggests most individuals can reach levels of performance associated in school with the gifted and talented. However, they must be taught the right attitudes and approaches to their learning and develop the attributes of high performers – curiosity, persistence and hard work, for example – an approach Eyre calls ‘high performance learning’. Critically, they need the right support in developing those approaches at home as well as at school.</span></p>
+<p><span style="font-size: large;">Prof Anders Ericsson, an eminent education psychologist at Florida State University, US, is the co-author of <em>Peak</em>: <em>Secrets from the New Science of Expertise</em>. After research going back to 1980 into diverse achievements, from music to memory to sport, he doesn’t think unique and innate talents are at the heart of performance. Deliberate practice, that stretches you every step of the way, and around 10,000 hours of it, is what produces the goods. It’s not a magic number – the highest performers move on to doing a whole lot more, of course. Ericsson’s memory research is particularly interesting because random students, trained in memory techniques for the study, went on to outperform others thought to have innately superior memories – those who you might call gifted.</span></p>
+<p><span style="font-size: large;">But it is perhaps the work of Benjamin Bloom, another distinguished American educationist working in the 1980s, that gives the most pause for thought. Bloom’s team looked at a group of extraordinarily high achieving people in disciplines as varied as ballet, swimming, piano, tennis, maths, sculpture and neurology. He found a pattern of parents encouraging and supporting their children, often in areas they enjoyed themselves. Bloom’s outstanding people had worked very hard and consistently at something they had become hooked on when at a young age, and their parents all emerged as having strong work ethics themselves.</span></p>
+<p><span style="font-size: large;">Eyre says we know how high performers learn. From that she has developed a high performing learning approach. She is working on this with a group of schools, both in Britain and abroad. Some spin-off research, which looked in detail at 24 of the 3,000 children being studied who were succeeding despite difficult circumstances, found something remarkable. Half were getting free school meals because of poverty, more than half were living with a single parent, and four in five were living in disadvantaged areas. Interviews uncovered strong evidence of an adult or adults in the child’s life who valued and supported education, either in the immediate or extended family or in the child’s wider community. Children talked about the need to work hard at school, to listen in class and keep trying.</span></p>
+<p><span style="font-size: large;">Let us end with Einstein, the epitome of a genius. He clearly had curiosity, character and determination. He struggled against rejection in early life but was undeterred. Did he think he was a genius or even gifted? He once wrote: ‘It’s not that I’m so smart, it’s just that I stay with problems longer. Most people say it is the intellect which makes a great scientist. They are wrong: it is character.’</span></p>
+<p><span style="font-size: large;"></span></p>`,
+                questions:`
+                 <div class="et_pb_row et_pb_row_9">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_9  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_18  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: x-large; color: #353535;"><strong>Questions 27–32</strong></span></p>
+<p><span style="font-size: large;"><em>Complete the summary using the list of phrases, <strong>A–K</strong>, below.</em></span></p>
+<p><span style="font-size: large;"><em>Write the correct letter, <strong>A–K</strong>, in boxes 27–32 on your answer sheet.</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_19  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3 style="text-align: center;"><span style="font-size: x-large;"><strong>Maryam Mirzakhani</strong></span></h3>
+<p><span style="font-size: large;">Maryam Mirzakhani is regarded as <strong>27</strong>………………… in the field of mathematics because she was the only female holder of the prestigious Fields Medal – a record that she retained at the time of her death. However, maths held little <strong>28</strong>………………… for her as a child and in fact her performance was below average until she was <strong>29</strong>………………… by a difficult puzzle that one of her siblings showed her.</span></p>
+<p><span style="font-size: large;">Later, as a professional mathematician, she had an inquiring mind and proved herself to be <strong>30</strong>………………… when things did not go smoothly. She said she got the greatest <strong>31</strong>………………… from making ground-breaking discoveries and in fact she was responsible for some extremely <strong>32</strong>………………… mathematical studies.</span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_20  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><table>
+<tbody>
+<tr>
+<td width="113"><span style="font-size: large;"><strong>A</strong>   appeal</span></p>
+<p><span style="font-size: large;"><strong>D</strong>   single</span></p>
+<p><span style="font-size: large;"><strong>G</strong>   involved</span></p>
+<p><span style="font-size: large;"><strong>J </strong>  satisfaction</span></td>
+<td width="127"><span style="font-size: large;"><strong>B</strong>   determined</span></p>
+<p><span style="font-size: large;"><strong>E</strong>   achievement</span></p>
+<p><span style="font-size: large;"><strong>H</strong>   unique</span></p>
+<p><span style="font-size: large;"><strong>K</strong>   intent</span></td>
+<td width="106"><span style="font-size: large;"><strong>C</strong>   intrigued</span></p>
+<p><span style="font-size: large;"><strong>F</strong>   devoted</span></p>
+<p><span style="font-size: large;"><strong>I </strong>  innovative</span></td>
+</tr>
+</tbody>
+</table></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_10">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_10  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_21  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: x-large; color: #353535;"><strong>Questions 33–37</strong></span></p>
+<p><span style="font-size: large;">Do the following statements agree with the claims of the writer in Reading Passage 3?</span></p>
+<p><span style="font-size: large;"><em>In boxes 33–37</em> <em>on your answer sheet, write</em></span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong><em>YES</em></strong><em>                  if the statement agrees with the claims of the writer</em></span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong><em>NO</em></strong><em>                   if the statement contradicts the claims of the writer</em></span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong><em>NOT</em></strong><em> <strong>GIVEN</strong>     if it is impossible to say what the writer thinks about this</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_22  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>33</strong>   Many people who ended up winning prestigious intellectual prizes only reached an average standard when young.</span></p>
+<p><span style="font-size: large;"><strong>34</strong>   Einstein’s failures as a young man were due to his lack of confidence.</span></p>
+<p><span style="font-size: large;"><strong>35</strong>   It is difficult to reach agreement on whether some children are actually born gifted.</span></p>
+<p><span style="font-size: large;"><strong>36</strong>   Einstein was upset by the public’s view of his life’s work.</span></p>
+<p><span style="font-size: large;"><strong>37</strong>   Einstein put his success down to the speed at which he dealt with scientific questions.</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_11">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_11  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_23  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3><span style="font-size: x-large;"><strong>Questions 38–40</strong></span></h3>
+<p><span style="font-size: large;"><em>Choose the correct letter, <strong>A</strong>, <strong>B</strong>,<strong> C</strong> or <strong>D</strong>.</em></span></p>
+<p><span style="font-size: large;"><em>Write the correct letter in boxes 38–40 on your answer sheet.</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_24  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>38</strong>   What does Eyre believe is needed for children to equal ‘gifted’ standards?</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>A  </strong> strict discipline from the teaching staff</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>B  </strong> assistance from their peers in the classroom</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>C  </strong> the development of a spirit of inquiry towards their studies</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>D  </strong> the determination to surpass everyone else’s achievements</span></p>
+<p><span style="font-size: large;"><strong></strong></span></p>
+<p><span style="font-size: large;"><strong>39</strong>   What is the result of Ericsson’s research?</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>A  </strong> Very gifted students do not need to work on improving memory skills.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>B  </strong> Being born with a special gift is not the key factor in becoming expert.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>C  </strong> Including time for physical exercise is crucial in raising performance.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>D  </strong> 10,000 hours of relevant and demanding work will create a genius.</span></p>
+<p><span style="font-size: large;"><strong></strong></span></p>
+<p><span style="font-size: large;"><strong>40</strong>   In the penultimate paragraph, it is stated the key to some deprived children’s success is</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>A  </strong> a regular and nourishing diet at home.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>B  </strong> the loving support of more than one parent.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>C  </strong> a community which has well-funded facilities for learning.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>D  </strong> the guidance of someone who recognises the benefits of learning.</span></p></div>
+			</div><div class="et_pb_module et_pb_code et_pb_code_2">
+				
+				
+				
+				
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7361163811890432" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-7361163811890432" 
+data-ad-slot="" 
+data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script> 
+(adsbygoogle = window.adsbygoogle || []).push({}); 
+</script>
+</div></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>`,
+                answers:`		<div class="et_pb_toggle_content clearfix"><p>27   H</p>
+<p>28   A</p>
+<p>29   C</p>
+<p>30   B</p>
+<p>31   J</p>
+<p>32   I</p>
+<p>33   YES</p>
+<p>34   NOT GIVEN</p>
+<p>35   YES</p>
+<p>36   NOT GIVEN</p>
+<p>37   NO</p>
+<p>38   C</p>
+<p>39   B</p>
+<p>40   D</p></div>`
+            }
+        ]
+        
+    }
+      
+]
