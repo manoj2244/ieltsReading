@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import WelcomePage from "./components/WelcomePage";
+import TestPage from "./components/TestPage";
+import Passage from "./components/Passage";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        {/* Welcome Page Route */}
+        <Route path="/" element={<WelcomePage />} />
+
+        {/* Test Page with Nested Routes */}
+        <Route path="/test" element={<TestPage />}>
+          <Route path="passage/:id" element={<Passage />} />
+        </Route>
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
