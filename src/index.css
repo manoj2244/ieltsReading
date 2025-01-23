@@ -12,3 +12,7 @@ h2 span strong{
   font-size: 24px;
   margin:0;
 }
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
