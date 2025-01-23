@@ -11,33 +11,41 @@ const Passage = () => {
   const passagePrev = passages.find((p) => p.id == testId); // Find the passage based on id
   const passage = passagePrev?.passage?.find((p) => p.id === parseInt(id)); // Find the passage based on id
 
-  // Canvas reference and drawing state
   const canvasRef = useRef(null);
+  const containerRef = useRef(null);
   const [isDrawing, setIsDrawing] = useState(false);
-  const [isPencilActive, setIsPencilActive] = useState(false); // State to toggle pencil mode
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false); // State for drawer
+  const [isPencilActive, setIsPencilActive] = useState(false);
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   useEffect(() => {
-    // Clear the canvas when id or testId changes
     const canvas = canvasRef.current;
-    if (canvas) {
-      const ctx = canvas.getContext("2d");
-      ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear previous drawings
+    const container = containerRef.current;
+
+    if (canvas && container) {
+      // Match canvas size to container
+      canvas.width = container.offsetWidth;
+      canvas.height = container.scrollHeight;
     }
-  }, [id, testId]);
+  }, [id, testId]); // Recalculate on passage change
+
+  const getMousePosition = (e) => {
+    const canvas = canvasRef.current;
+    const container = containerRef.current;
+    const canvasRect = canvas.getBoundingClientRect();
+
+    // Calculate mouse position relative to the canvas and account for scroll
+    const offsetX = e.clientX - canvasRect.left;
+    const offsetY = e.clientY - canvasRect.top ;
+
+    return { offsetX, offsetY };
+  };
 
   const startDrawing = (e) => {
-    if (!isPencilActive) return; // Only draw if pencil mode is active
+    if (!isPencilActive) return;
+
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
-
-    const rect = canvas.getBoundingClientRect();
-
-    // Get mouse position scaled to canvas dimensions
-    const scaleX = canvas.width / rect.width;
-    const scaleY = canvas.height / rect.height;
-    const offsetX = (e.clientX - rect.left) * scaleX;
-    const offsetY = (e.clientY - rect.top) * scaleY;
+    const { offsetX, offsetY } = getMousePosition(e);
 
     ctx.beginPath();
     ctx.moveTo(offsetX, offsetY);
@@ -45,26 +53,21 @@ const Passage = () => {
   };
 
   const draw = (e) => {
-    if (!isDrawing) return; // Only draw when mouse is pressed down
+    if (!isDrawing) return;
+
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
-
-    const rect = canvas.getBoundingClientRect();
-
-    // Get mouse position scaled to canvas dimensions
-    const scaleX = canvas.width / rect.width;
-    const scaleY = canvas.height / rect.height;
-    const offsetX = (e.clientX - rect.left) * scaleX;
-    const offsetY = (e.clientY - rect.top) * scaleY;
+    const { offsetX, offsetY } = getMousePosition(e);
 
     ctx.lineTo(offsetX, offsetY);
-    ctx.strokeStyle = "red"; // Pencil color
-    ctx.lineWidth = 1; // Pencil thickness
+    ctx.strokeStyle = "red";
+    ctx.lineWidth = 1;
     ctx.stroke();
   };
 
   const stopDrawing = () => {
     if (!isDrawing) return;
+
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
     ctx.closePath();
@@ -72,7 +75,7 @@ const Passage = () => {
   };
 
   const togglePencilMode = () => {
-    setIsPencilActive(!isPencilActive); // Toggle pencil mode
+    setIsPencilActive(!isPencilActive);
   };
 
   if (!passage) {
@@ -83,7 +86,7 @@ const Passage = () => {
     <div
       className="flex flex-col min-h-[100%] overflow-hidden"
       style={{
-        cursor: isPencilActive ? "url('/pencil-cursor.png'), auto" : "default", // Change cursor to pencil
+        cursor: isPencilActive ? "url('/pencil-cursor.png'), auto" : "default",
       }}
     >
       <div className="flex justify-between items-center bg-gray-400 text-white px-6 py-2 shadow-md">
@@ -107,6 +110,7 @@ const Passage = () => {
       <div className="relative flex flex-grow p-6 space-x-4">
         {/* Passage Section (60%) */}
         <div
+          ref={containerRef}
           className="bg-[#f6fff9] p-4 shadow rounded-md overflow-y-auto relative"
           style={{ width: "60%", height: "calc(100vh - 160px)" }}
         >
@@ -132,11 +136,9 @@ const Passage = () => {
             className="absolute top-0 left-0"
             style={{
               width: "100%",
-              height: "100%",
-              pointerEvents: isPencilActive ? "auto" : "none", // Canvas only active if pencil mode is on
+              height: `${containerRef.current?.scrollHeight || 0}px`,
+              pointerEvents: isPencilActive ? "auto" : "none",
             }}
-            width={800} // Canvas actual width
-            height={600} // Canvas actual height
             onMouseDown={startDrawing}
             onMouseMove={draw}
             onMouseUp={stopDrawing}
