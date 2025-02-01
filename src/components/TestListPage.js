@@ -11,6 +11,7 @@ const TestListPage = () => {
   };
 
   return (
+    <>
     <div className="flex flex-col items-start justify-start p-10 min-h-screen bg-gray-100">
       {/* Page Heading */}
       <h1 className="text-3xl font-bold mb-8">Select a Cambridge Test</h1>
@@ -38,6 +39,11 @@ const TestListPage = () => {
         ))}
       </div>
     </div>
+
+<footer className="bg-gray-800 text-white text-center py-4 sticky bottom-0">
+&copy; 2025 Manoj Nepali. All rights reserved.
+</footer>
+</>
   );
 };
 

@@ -56,9 +56,7 @@ const TestPage = () => {
       </div>
 
       {/* Sticky Footer */}
-      <footer className="bg-gray-800 text-white text-center py-4 sticky bottom-0">
-        &copy; 2025 Manoj Nepali. All rights reserved.
-      </footer>
+   
     </div>
   );
 };
