@@ -3,6 +3,8 @@ import { useParams } from "react-router-dom";
 import { passages } from "../data"; // Import the passages data
 import { Button, Drawer } from "antd";
 import { useNavigate } from "react-router-dom";
+import { DragOutlined } from "@ant-design/icons"; // Import resizable icon
+
 
 const Passage = () => {
   const { testId, id } = useParams(); // Get the passage id from the URL
@@ -17,6 +19,9 @@ const Passage = () => {
   const [isPencilActive, setIsPencilActive] = useState(false);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
+  const [passageWidth, setPassageWidth] = useState(60); // Passage section width in percentage
+  const [isResizing, setIsResizing] = useState(false); // Flag for dragging
+
   useEffect(() => {
     const canvas = canvasRef.current;
     const container = containerRef.current;
@@ -26,16 +31,15 @@ const Passage = () => {
       canvas.width = container.offsetWidth;
       canvas.height = container.scrollHeight;
     }
-  }, [id, testId]); // Recalculate on passage change
+  }, [id, testId, passageWidth]); // Recalculate on passage change and resize
 
   const getMousePosition = (e) => {
     const canvas = canvasRef.current;
-    const container = containerRef.current;
     const canvasRect = canvas.getBoundingClientRect();
 
-    // Calculate mouse position relative to the canvas and account for scroll
+    // Calculate mouse position relative to the canvas
     const offsetX = e.clientX - canvasRect.left;
-    const offsetY = e.clientY - canvasRect.top ;
+    const offsetY = e.clientY - canvasRect.top;
 
     return { offsetX, offsetY };
   };
@@ -78,6 +82,39 @@ const Passage = () => {
     setIsPencilActive(!isPencilActive);
   };
 
+  const handleMouseDown = () => {
+    setIsResizing(true);
+  };
+
+  const handleMouseMove = (e) => {
+    if (!isResizing) return;
+
+    // Calculate new passage width
+    const newWidth = (e.clientX / window.innerWidth) * 100;
+    if (newWidth > 30 && newWidth < 70) {
+      setPassageWidth(newWidth);
+    }
+  };
+
+  const handleMouseUp = () => {
+    setIsResizing(false);
+  };
+
+  useEffect(() => {
+    if (isResizing) {
+      document.addEventListener("mousemove", handleMouseMove);
+      document.addEventListener("mouseup", handleMouseUp);
+    } else {
+      document.removeEventListener("mousemove", handleMouseMove);
+      document.removeEventListener("mouseup", handleMouseUp);
+    }
+
+    return () => {
+      document.removeEventListener("mousemove", handleMouseMove);
+      document.removeEventListener("mouseup", handleMouseUp);
+    };
+  }, [isResizing]);
+
   if (!passage) {
     return <div>Passage not found!</div>;
   }
@@ -89,6 +126,7 @@ const Passage = () => {
         cursor: isPencilActive ? "url('/pencil-cursor.png'), auto" : "default",
       }}
     >
+      {/* Navigation Bar */}
       <div className="flex justify-between items-center bg-gray-400 text-white px-6 py-2 shadow-md">
         <Button type="primary" onClick={() => navigate("/tests")}>
           Home
@@ -107,12 +145,12 @@ const Passage = () => {
       </div>
 
       {/* Main Content Area */}
-      <div className="relative flex flex-grow p-6 space-x-4">
-        {/* Passage Section (60%) */}
+      <div className="relative flex flex-grow p-6">
+        {/* Passage Section */}
         <div
           ref={containerRef}
           className="bg-[#f6fff9] p-4 shadow rounded-md overflow-y-auto relative"
-          style={{ width: "60%", height: "calc(100vh - 160px)" }}
+          style={{ width: `${passageWidth}%`, height: "calc(100vh - 160px)" }}
         >
           <div className="text-[30px]">Passage {id}</div>
           {passage.heading && (
@@ -146,16 +184,26 @@ const Passage = () => {
           />
         </div>
 
-        {/* Questions Section (40%) */}
+        {/* Resizable Divider */}
+       
+          <div
+          className="w-[12px] cursor-col-resize bg-gray-500 hover:bg-gray-700 flex justify-center items-center"
+          onMouseDown={handleMouseDown}
+        >
+          <DragOutlined className="text-white text-xl" /> {/* Resize Icon */}
+        </div>
+
+        {/* Questions Section */}
         <div
           className="bg-white p-4 shadow rounded-md overflow-y-auto"
-          style={{ width: "40%", height: "calc(100vh - 160px)" }}
+          style={{ width: `${100 - passageWidth}%`, height: "calc(100vh - 160px)" }}
         >
           <h2 className="text-xl font-semibold mb-4">Questions</h2>
           <div dangerouslySetInnerHTML={{ __html: passage.questions }} />
         </div>
       </div>
 
+      {/* Drawer for Answers */}
       <Drawer
         className="w-[40%]"
         title="Questions"
