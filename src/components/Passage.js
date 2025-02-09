@@ -180,7 +180,7 @@ const Passage = () => {
             onMouseDown={startDrawing}
             onMouseMove={draw}
             onMouseUp={stopDrawing}
-            onMouseOut={stopDrawing}
+            onMouseOut={stopDrawing} 
           />
         </div>
 

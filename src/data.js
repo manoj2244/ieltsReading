@@ -1,5 +1,7 @@
 // data.js
 
+import Title from "antd/es/skeleton/Title";
+
 export const passages = [
 
     {
@@ -1809,6 +1811,870 @@ data-ad-format="auto" data-full-width-responsive="true"></ins>
             }
         ]
         
-    }
+    },
+{
+        id:"19-3",
+        Title:"Cambridge 19 Test 3",
+        passage:[
+                {
+                        id:1,
+                        heading:`<p><em><span style="font-size: large;">You should spend about 20 minutes on </span><strong style="font-size: large;">Questions</strong><span style="font-size: large;"> </span><strong style="font-size: large;">1-13</strong><span style="font-size: large;">, which are based on Reading Passage 1 below.</span></em></p>
+`,
+                        Title:`<h2 style="text-align: center;"><span style="font-size: xx-large;"><strong>Archaeologists discover evidence of prehistoric island settlers</strong></span></h2>`,
+                        content:`<p><span style="font-size: large;">In early April 2019, Dr Ceri Shipton and his colleagues from Australian National University became the first archaeologists to explore Obi, one of many tropical islands in Indonesia’s Maluku Utara province. The research team’s discoveries suggest that the prehistoric people who lived on Obi were adept on both land and sea, hunting in the dense rainforest, foraging on the seashore, and possibly even voyaging between islands.</span></p>
+<p><span style="font-size: large;">The excavations were part of a project to learn more about how people first dispersed from mainland Asia, through the Indonesian archipelago and into the prehistoric continent that once connected Australia and New Guinea. The team’s earlier research suggested that the northernmost islands in the group, known as the Wallacean islands, including Obi, would have offered the easiest migration route. It also seemed likely that these islands were crucial ‘stepping stones’ on humans’ island-hopping voyages through this region millennia ago. But to support this idea, they needed archaeological evidence for humans living in this remote area in the ancient past. So, they travelled to Obi to look for sites that might reveal evidence of early occupation.</span></p>
+<p><span style="font-size: large;">Just inland from the village of Kelo on Obi’s northern coast, Shipton and his colleagues found two caves containing prehistoric rock shelters that were suitable for excavation. With the permission and help of the local people of Kelo, they dug a small test excavation in each shelter. There they found numerous artefacts, including fragments of axes, some dating to about 14,000 years ago. The earliest axes at Kelo were made using clam shells. Axes made from clam shells from roughly the same time had also previously been found elsewhere in this region, including on the nearby island of Gebe to the northeast. As on Gebe, it is highly likely that Obi’s axes were used in the construction of canoes, thus allowing these early peoples to maintain connections between communities on neighbouring islands.</span></p>
+<p><span style="font-size: large;">The oldest cultural layers from the Kelo site provided the team with the earliest record for human occupation on Obi, dating back around 18,000 years. At this time the climate was drier and colder than today, and the island’s dense rainforests would likely have been much less impenetrable than they are now. Sea levels were about 120 metres lower, meaning Obi was a much larger island, encompassing what is today the separate island of Bisa, as well as several other small islands nearby.</span></p>
+<p><span style="font-size: large;">Roughly 11,700 years ago, as the most recent ice age ended, the climate became significantly warmer and wetter, no doubt making Obi’s jungle much thicker. According to the researchers, it is no coincidence that around this time the first axes crafted from stone rather than sea shells appear, likely in response to their heavy-duty use for clearing and modification of the increasingly dense rainforest. While stone takes about twice as long to grind into an axe compared to shell, the harder material keeps its sharp edge for longer.</span></p>
+<p><span style="font-size: large;">Judging by the bones which the researchers unearthed in the Kelo caves, people living there mainly hunted the Rothschild’s cuscus, a possum-like creature that still lives on Obi today. As the forest grew more dense, people probably used axes to clear patches of forest and make hunting easier.</span></p>
+<p><span style="font-size: large;">Shipton’s team’s excavation of the shelters at the Kelo site unearthed a volcanic glass substance called obsidian, which must have been brought over from another island, as there is no known source on Obi. It also revealed particular types of beads, similar to those previously found on islands in southern Wallacea. These finds again support the idea that Obi islanders routinely travelled to other islands.</span></p>
+<p><span style="font-size: large;">The excavations suggest people successfully lived in the two Kelo shelters for about 10,000 years. But then, about 8,000 years ago, both were abandoned. Did the residents leave Obi completely, or move elsewhere on the island? Perhaps the jungle had grown so thick that axes were no longer a match for the dense undergrowth. Perhaps people simply moved to the coast and turned to fishing rather than hunting as a means of survival.</span></p>
+<p><span style="font-size: large;">Whatever the reason for the departure, there is no evidence for use of the Kelo shelters after this time, until about 1,000 years ago, when they were re-occupied by people who owned pottery as well as items made out of gold and silver. It seems likely, in view of Obi’s location, that this final phase of occupation also saw the Kelo shelters used by people involved in the historic trade in spices between the Maluku islands and the rest of the world.</span></p>
+<p><span style="font-size: large;"></span></p>`,
+                        questions:` <div class="et_pb_row et_pb_row_1">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: x-large; color: #353535;"><strong>Questions 1–7</strong></span></p>
+<p><span style="font-size: large;">Do the following statements agree with the information given in Reading Passage 1?</span></p>
+<p><span style="font-size: large;"><em>In boxes 1–7</em> <em>on your answer sheet, write</em></span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong><em>TRUE</em></strong><em>               if the statement agrees with the information</em></span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong><em>FALSE</em></strong><em>              if the statement contradicts the information</em></span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong><em>NOT</em></strong><em> <strong>GIVEN</strong>     if there is no information on this</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>1</strong>   Archaeological research had taken place on the island of Obi before the arrival of Ceri Shipton and his colleagues.</span></p>
+<p><span style="font-size: large;"><strong>2</strong>   At the Kelo sites, the researchers found the first clam shell axes ever to be discovered in the region.</span></p>
+<p><span style="font-size: large;"><strong>3</strong>   The size of Obi today is less than it was 18,000 years ago.</span></p>
+<p><span style="font-size: large;"><strong>4</strong>   A change in the climate around 11,700 years ago had a greater impact on Obi than on the surrounding islands.</span></p>
+<p><span style="font-size: large;"><strong>5</strong>   The researchers believe there is a connection between warmer, wetter weather and a change in the material used to make axes.</span></p>
+<p><span style="font-size: large;"><strong>6</strong>   Shipton’s team were surprised to find evidence of the Obi islanders’ hunting practices.</span></p>
+<p><span style="font-size: large;"><strong>7</strong>   It is thought that the Kelo shelters were occupied continuously until about 1,000 years ago.</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_2">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_4  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3><span style="font-size: x-large;"><strong>Questions 8–13</strong></span></h3>
+<p><span style="font-size: large;"><em>Complete the notes below.</em></span></p>
+<p><span style="font-size: large;"><em>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</em></span></p>
+<p><span style="font-size: large;"><em>Write your answers in boxes 8–13 on your answer sheet.</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_5  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3 style="text-align: center;"><span style="font-size: x-large;"><strong>Archaeological findings on Obi</strong></span></h3>
+<p><span style="font-size: large;">Excavations of rock shelters inside <strong>8</strong>………………… near the village of Kelo revealed:</span></p>
+<p><span style="font-size: large;">●  axes from around 14,000 years ago, probably used to make canoes</span></p>
+<p><span style="font-size: large;">●  axes made out of <strong>9</strong>…………………, dating from around 11,700 years ago</span></p>
+<p><span style="font-size: large;">●  <strong>10</strong>………………… of an animal: evidence of what ancient islanders ate</span></p>
+<p><span style="font-size: large;">●  evidence of travel between islands:</span></p>
+<p><span style="font-size: large;">      –   obsidian: a material that is not found naturally on Obi</span></p>
+<p><span style="font-size: large;">      –   <strong>11</strong>………………… which resembled ones found on other islands.</span></p>
+<p><span style="font-size: large;">It is thought that from 8,000 years ago, Obi islanders:</span></p>
+<p><span style="font-size: large;">●  may have switched from hunting to fishing</span></p>
+<p><span style="font-size: large;">●  had <strong>12</strong>………………… as well as items made out of metal</span></p>
+<p><span style="font-size: large;">●  probably took part in the production and sale of <strong>13</strong>………………… .</span></p></div>
+			</div><div class="et_pb_module et_pb_code et_pb_code_0">
+				
+				
+				
+				
+				<div class="et_pb_code_inner"><div class="ielts-manual-ads" id="ielts-1048458243"><div class="ielts-adlabel">Advertisements</div><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7361163811890432" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-7361163811890432" 
+data-ad-slot="" 
+data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script> 
+(adsbygoogle = window.adsbygoogle || []).push({}); 
+</script>
+</div></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>`,
+                        answers:`	<div class="et_pb_toggle_content clearfix"><p>1   FALSE</p>
+<p>2   FALSE</p>
+<p>3   TRUE</p>
+<p>4   NOT GIVEN</p>
+<p>5   TRUE</p>
+<p>6   NOT GIVEN</p>
+<p>7   FALSE</p>
+<p>8   caves</p>
+<p>9   stone</p>
+<p>10   bones</p>
+<p>11   beads</p>
+<p>12   pottery</p>
+<p>13   spices</p></div>`
+                },{
+                        id:2,heading:`<p><em><span style="font-size: large;">You should spend about 20 minutes on <strong>Questions 14–26</strong>, which are based on Reading Passage 2 below.</span></em></p>
+`,
+                        Title: `<h2 style="text-align: center;"><span style="font-size: xx-large;"><strong>The global importance of wetlands</strong></span></h2>`,
+                        content:`<p><span style="font-size: large;"><strong>A</strong></span></p>
+<p><span style="font-size: large;">Wetlands are areas where water covers the soil, or is present either at or near the surface of the soil, for all or part of the year. These are complex ecosystems, rich in unique plant and animal life. But according to the World Wide Fund for Nature (WWFN), half of the world’s wetlands have disappeared since 1990 – converted or destroyed for commercial development, drainage schemes and the extraction of minerals and peat*. Many of those that remain have been damaged by agricultural pesticides and fertilizers, industrial pollutants, and construction works.</span></p>
+<p><span style="font-size: large;">&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;<br /></span><span style="font-size: medium;">* peat: a brown deposit formed by the partial decomposition of vegetation in wet acidic conditions, often cut out and dried for use as fuel</span></p>
+<p><span style="font-size: large;"><strong>B</strong></span></p>
+<p><span style="font-size: large;">Throughout history, humans have gathered around wetlands, and their fertile ecosystems have played an important part in human development. Consequently, they are of considerable religious, historical and archaeological value to many communities around the world. ‘Wetlands directly support the livelihoods and well-being of millions of people,’ says Dr Matthew McCartney, principal researcher and hydrologist at the International Water Management Institute (IWMI). ‘In many developing countries, large numbers of people are dependent on wetland agriculture for their livelihoods.’</span></p>
+<p><span style="font-size: large;"><strong>C</strong></span></p>
+<p><span style="font-size: large;">They also serve a crucial environmental purpose. ‘Wetlands are one of the key tools in mitigating climate change across the planet,’ says Pieter van Eijk, head of Climate Adaptation at Wetlands International (WI), pointing to their use as buffers that protect coastal areas from sea-level rise and extreme weather events such as hurricanes and flooding. Wetland coastal forests provide food and water, as well as shelter from storms, and WI and other agencies are working to restore those forests which have been lost. ‘It can be as simple as planting a few trees per hectare to create shade and substantially change a microclimate,’ he says. ‘Implementing climate change projects isn’t so much about money.’</span></p>
+<p><span style="font-size: large;"><strong>D</strong></span></p>
+<p><span style="font-size: large;">The world’s wetlands are, unfortunately, rich sources for in-demand commodities, such as palm oil and pulpwood. Peatlands – wetlands with a waterlogged organic soil layer – are particularly targeted. When peatlands are drained for cultivation, they become net carbon emitters instead of active carbon stores, and, according to Marcel Silvius, head of Climate-smart Land-use at WI, this practice causes six per cent of all global carbon emissions. The clearance of peatlands for planting also increases the risk of forest fires, which release huge amounts of CO₂. ‘We’re seeing huge peatland forests with extremely high biodiversity value being lost for a few decades of oil palm revenues,’ says Silvius.</span></p>
+<p><span style="font-size: large;"><strong>E</strong></span></p>
+<p><span style="font-size: large;">The damage starts when logging companies arrive to clear the trees. They dig ditches to enter the peat swamps by boat and then float the logs out the same way. These are then used to drain water out of the peatlands to allow for the planting of corn, oil palms or pulpwood trees. Once the water has drained away, bacteria and fungi then break down the carbon in the peat and turn it into CO₂ and methane. Meanwhile, the remainder of the solid matter in the peat starts to move downwards, in a process known as subsidence. Peat comprises 90 per cent water, so this is one of the most alarming consequences of peatland clearances. ‘In the tropics, peat subsides at about four centimetres a year, so within half a century, very large landscapes on Sumatra and Borneo will become flooded as the peat drops below water level,’ says Silvius. ‘It’s a huge catastrophe that’s in preparation. Some provinces will lose 40 per cent of their landmass.’</span></p>
+<p><span style="font-size: large;"><strong>F</strong></span></p>
+<p><span style="font-size: large;">And while these industries affect wetlands in ways that can easily be documented, Dr Dave Tickner of the WWFN believes that more subtle impacts can be even more devastating. ‘Sediment run-off and fertilizers can be pretty invisible,’ says Tickner. ‘Over-extraction of water is equally invisible. You do get shock stories about rivers running red, or even catching fire, but there’s seldom one big impact that really hurts a wetland.’ Tickner does not blame anyone for deliberate damage, however. ‘I’ve worked on wetland issues for 20 years and have never met anybody who wanted to damage a wetland,’ he says. ‘It isn’t something that people generally set out to do. Quite often, the effects simply come from people trying to make a living.’</span></p>
+<p><span style="font-size: large;"><strong>G</strong></span></p>
+<p><span style="font-size: large;">Silvius also acknowledges the importance of income generation. ‘It’s not that we just want to restore the biodiversity of wetlands – which we do – but we recognise there’s a need to provide an income for local people.’ This approach is supported by IWMI. ‘The idea is that people in a developing country will only protect wetlands if they value and profit from them,’ says McCartney. ‘For sustainability, it’s essential that local people are involved in wetland planning and decision making and have clear rights to use wetlands.’</span></p>
+<p><span style="font-size: large;"><strong>H</strong></span></p>
+<p><span style="font-size: large;">The fortunes of wetlands would be improved, Silvius suggests, if more governments recognized their long-term value. ‘Different governments have different attitudes,’ he says, and goes on to explain that some countries place a high priority on restoring wetlands, while others still deny the issue. McCartney is cautiously optimistic, however. ‘Awareness of the importance of wetlands is growing,’ he says. ‘It’s true that wetland degradation still continues at a rapid pace, but my impression is that things are slowly changing.’</span></p>
+<p><span style="font-size: large;"></span></p>`,
+                        questions:` <div class="et_pb_row et_pb_row_4">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_4  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_8  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3><span style="font-size: x-large;"><strong>Questions 14–17</strong></span></h3>
+<p><span style="font-size: large;">Reading Passage 2 has eight paragraphs, <strong>A–H</strong>.</span></p>
+<p><span style="font-size: large;">Which paragraph contains the following information?</span></p>
+<p><span style="font-size: large;"><em>Write the correct letter, <strong>A–H</strong>, in boxes 14–17 on your answer sheet.</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_9  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>14 </strong>  reference to the need to ensure that inhabitants of wetland regions continue to benefit from them</span></p>
+<p><span style="font-size: large;"><strong>15 </strong>  the proportion of wetlands which have already been lost</span></p>
+<p><span style="font-size: large;"><strong>16 </strong>  reference to the idea that people are beginning to appreciate the value of wetlands</span></p>
+<p><span style="font-size: large;"><strong>17 </strong>  mention of the cultural significance of wetlands</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_5">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_5  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_10  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: x-large; color: #353535;"><strong>Questions 18–22</strong></span></p>
+<p><span style="font-size: large;"><em>Complete the sentences below.</em></span></p>
+<p><span style="font-size: large;"><em>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</em></span></p>
+<p><span style="font-size: large;"><em>Write your answers in boxes 18–22 on your answer sheet.</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_11  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>18</strong>   Peatlands which have been drained begin to release …………………… instead of storing it.</span></p>
+<p><span style="font-size: large;"><strong>19</strong>   Once peatland areas have been cleared, …………………… are more likely to occur.</span></p>
+<p><span style="font-size: large;"><strong>20</strong>   Clearing peatland forests to make way for oil palm plantations destroys the …………………… of the local environment.</span></p>
+<p><span style="font-size: large;"><strong>21</strong>   Water is drained out of peatlands through the …………………… which are created by logging companies.</span></p>
+<p><span style="font-size: large;"><strong>22</strong>   Draining peatlands leads to …………………… : a serious problem which can eventually result in coastal flooding and land loss.</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_6">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_12  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: x-large; color: #353535;"><strong>Questions 23–26</strong></span></p>
+<p><span style="font-size: large;"><em>Look at the following statements (Questions 23–26) and the list of experts below.</em></span></p>
+<p><span style="font-size: large;"><em>Match each statement with the correct expert, <strong>A–D</strong>.</em></span></p>
+<p><span style="font-size: large;"><em>Write the correct letter, <strong>A–D</strong>, in boxes 23–26 on your answer sheet.</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_13  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>23</strong>   Communities living in wetland regions must be included in discussions about the future of these areas.</span></p>
+<p><span style="font-size: large;"><strong>24</strong>   Official policies towards wetlands vary from one nation to the next.</span></p>
+<p><span style="font-size: large;"><strong>25</strong>   People cause harm to wetlands without having any intention to do so.</span></p>
+<p><span style="font-size: large;"><strong>26</strong>   Initiatives to reserve environmental damage need to be complex.</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_7">
+				<div class="et_pb_column et_pb_column_2_5 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_with_border et_pb_module et_pb_text et_pb_text_14  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p style="padding-left: 25px;"><span style="font-size: large;"><strong>List of Experts</strong></span></p>
+<p><span style="font-size: large;"><strong>A </strong>  Matthew McCartney</span></p>
+<p><span style="font-size: large;"><strong>B </strong>  Pieter van Eijk</span></p>
+<p><span style="font-size: large;"><strong>C </strong>  Marcel Silvius</span></p>
+<p><span style="font-size: large;"><strong>D </strong>  Dave Tickner</span></p></div>`,
+                        answers:`	<div class="et_pb_toggle_content clearfix"><p>14   G</p>
+<p>15   A</p>
+<p>16   H</p>
+<p>17   B</p>
+<p>18   carbon</p>
+<p>19   fires</p>
+<p>20   biodiversity</p>
+<p>21   ditches</p>
+<p>22   subsidence</p>
+<p>23   A</p>
+<p>24   C</p>
+<p>25   D</p>
+<p>26   B</p></div>`
+
+                },
+
+                {
+                        id:3,
+                        heading:`<p><span style="font-size: large;"><em>You should spend about 20 minutes on <strong>Questions 27–40</strong>, which are based on Reading Passage 3 below.</em></span></p>
+`,
+                        Title:`<h2 style="text-align: center;"><span style="font-size: xx-large;"><strong>Is the era of artificial speech translation upon us?</strong></span></h2>`,
+                        content:        `<p style="text-align: center;"><span style="font-size: large;"><em>Once the stuff of science fiction, technology that enables people to talk using different languages is now here. But how effective is it?</em></span></p>
+<p><span style="font-size: large;">Noise, Alex Waibel tells me, is one of the major challenges that artificial speech translation has to meet. A device may be able to recognize speech in a laboratory, or a meeting room, but will struggle to cope with the kind of background noise I can hear in my office surrounding Professor Waibel as he speaks to me from Kyoto station in Japan. I’m struggling to follow him in English, on a scratchy line that reminds me we are nearly 10,000 kilometers apart – and that distance is still an obstacle to communication even if you’re speaking the same language, as we are. We haven’t reached the future yet. If we had, Waibel would have been able to speak more comfortably in his native German and I would have been able to hear his words in English.</span></p>
+<p><span style="font-size: large;">At Karlsruhe Institute of Technology, where he is a professor of computer science, Waibel and his colleagues already give lectures in German that their students can follow in English via an electronic translator. The system generates text that students can read on their laptops or phones, so the process is somewhat similar to subtitling. It helps that lecturers speak clearly, don’t have to compete with background chatter, and say much the same thing each year.</span></p>
+<p><span style="font-size: large;">The idea of artificial speech translation has been around for a long time. Douglas Adams’ science fiction novel, <em>The Hitchhiker’s Guide to the Galaxy</em>, published in 1979, featured a life form called the ‘Babel fish’ which, when placed in the ear, enabled a listener to understand any language in the universe. It came to represent one of those devices that technology enthusiasts dream of long before they become practically realizable, like TVs flat enough to hang on walls: objects that we once could only dream of having but that are now commonplace. Now devices that look like prototype Babel fish have started to appear, riding a wave of advances in artificial translation and voice recognition.</span></p>
+<p><span style="font-size: large;">At this stage, however, they seem to be regarded as eye-catching novelties rather than steps towards what Waibel calls ‘making a language-transparent society.’ They tend to be domestic devices or applications suitable for hotel check-ins, for example, providing a practical alternative to speaking traveler’s English. The efficiency of the translator is less important than the social function. However, ‘Professionals are less inclined to be patient in a conversation,’ founder and CEO at Waverly Labs, Andrew Ochoa, observes. To redress this, Waverly is now preparing a new model for professional applications, which entails performance improvements in speech recognition, translation accuracy and the time it takes to deliver the translated speech.</span></p>
+<p><span style="font-size: large;">For a conversation, both speakers need to have devices called Pilots (translator earpieces) in their ears. ‘We find that there’s a barrier with sharing one of the earphones with a stranger,’ says Ochoa. That can’t have been totally unexpected. The problem would be solved if earpiece translators became sufficiently prevalent that strangers would be likely to already have their own in their ears. Whether that happens, and how quickly, will probably depend not so much on the earpieces themselves, but on the prevalence of voice-controlled devices and artificial translation in general.</span></p>
+<p><span style="font-size: large;">Waibel highlights the significance of certain Asian nations, noting that voice translation has really taken off in countries such as Japan with a range of systems. There is still a long way to go, though. A translation system needs to be simultaneous, like the translator’s voice speaking over the foreign politician being interviewed on the TV, rather than in sections that oblige speakers to pause after every few remarks and wait for the translation to be delivered. It needs to work offline, for situations where internet access isn’t possible, and to address apprehensions about the amount of private speech data accumulating in the cloud, having been sent to servers for processing.</span></p>
+<p><span style="font-size: large;">Systems not only need to cope with physical challenges such as noise, they will also need to be socially aware by addressing people in the right way. Some cultural traditions demand solemn respect for academic status, for example, and it is only polite to respect this. Etiquette-sensitive artificial translators could relieve people of the need to know these differing cultural norms. At the same time, they might help to preserve local customs, slowing the spread of habits associated with international English, such as its readiness to get on first-name terms.</span></p>
+<p><span style="font-size: large;">Professors and other professionals will not outsource language awareness to software, though. If the technology matures into seamless, ubiquitous artificial speech translation, it will actually add value to language skills. Whether it will help people conduct their family lives or relationships is open to question—though one noteworthy possibility is that it could overcome the language barriers that often arise between generations after migration, leaving children and their grandparents without a shared language.</span></p>
+<p><span style="font-size: large;">Whatever uses it is put to, though, it will never be as good as the real thing. Even if voice-morphing technology simulates the speaker’s voice, their lip movements won’t match, and they will look like they are in a dubbed movie. The contrast will underline the value of shared languages, and the value of learning them. Sharing a language can promote a sense of belonging and community, as with the international scientists who use English as a lingua franca, where their predecessors used Latin. Though the practical need for a common language will diminish, the social value of sharing one will persist. And software will never be a substitute for the subtle but vital understanding that comes with knowledge of a language.</span></p>
+<p><span style="font-size: large;"></span></p>`,
+                        questions:`    <div class="et_pb_row et_pb_row_10">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_11  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_17  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: x-large; color: #353535;"><strong>Questions 27–30</strong></span></p>
+<p><span style="font-size: large;"><em>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</em></span></p>
+<p><span style="font-size: large;"><em>Write the correct letter in boxes 27–30 on your answer sheet.</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_18  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>27</strong>   What does the reader learn about the conversation in the first paragraph?</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>A  </strong> The speakers are communicating in different languages.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>B   </strong>Neither of the speakers is familiar with their environment.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>C   </strong>The topic of the conversation is difficult for both speakers.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>D  </strong> Aspects of the conversation are challenging for both speakers.</span></p>
+<p><span style="font-size: large;"><strong></strong></span></p>
+<p><span style="font-size: large;"><strong>28</strong>   What assists the electronic translator during lectures at Karlsruhe Institute of Technology?</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>A  </strong> the repeated content of lectures</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>B   </strong>the students’ reading skills</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>C   </strong>the languages used</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>D  </strong> the lecturers’ technical ability</span></p>
+<p><span style="font-size: large;"><strong></strong></span></p>
+<p><span style="font-size: large;"><strong>29</strong>   When referring to <em>The Hitchhiker’s Guide to the Galaxy</em>, the writer suggests that</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>A  </strong> the Babel fish was considered undesirable at the time.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>B  </strong> this book was not seriously intending to predict the future.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>C  </strong> artificial speech translation was not a surprising development.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>D  </strong> some speech translation techniques are better than others.</span></p>
+<p><span style="font-size: large;"><strong></strong></span></p>
+<p><span style="font-size: large;"><strong>30</strong>   What does the writer say about sharing earpieces?</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>A  </strong> It is something people will get used to doing.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>B  </strong> The reluctance to do this is understandable.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>C  </strong> The equipment will be unnecessary in the future.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>D  </strong> It is something few people need to worry about.</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+            
+            <div class="et_pb_row et_pb_row_11">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_12  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_19  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: x-large; color: #353535;"><strong>Questions 31–34</strong></span></p>
+<p><span style="font-size: large;"><em>Complete each sentence with the correct ending, <strong>A–F</strong>, below.</em></span></p>
+<p><span style="font-size: large;"><em>Write the correct letter, <strong>A–F</strong>, in boxes 31–34 on your answer sheet.</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_20  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>31</strong>   Speech translation methods are developing fast in Japan</span></p>
+<p><span style="font-size: large;"><strong>32</strong>   TV interviews that use translation voiceover methods are successful</span></p>
+<p><span style="font-size: large;"><strong>33</strong>   Future translation systems should address people appropriately</span></p>
+<p><span style="font-size: large;"><strong>34</strong>   Users may be able to maintain their local customs</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+            
+            <div class="et_pb_row et_pb_row_12">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_13  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_with_border et_pb_module et_pb_text et_pb_text_21  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>A  </strong> but there are concerns about this.</span></p>
+<p><span style="font-size: large;"><strong>B  </strong> as systems do not need to conform to standard practices.</span></p>
+<p><span style="font-size: large;"><strong>C  </strong> but they are far from perfect.</span></p>
+<p><span style="font-size: large;"><strong>D  </strong> despite the noise issues.</span></p>
+<p><span style="font-size: large;"><strong>E  </strong> because translation is immediate.</span></p>
+<p><span style="font-size: large;"><strong>F  </strong> and have an awareness of good manners.</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+            
+            <div class="et_pb_row et_pb_row_13">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_14  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_22  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3><span style="font-size: x-large;"><strong>Questions 35–40</strong></span></h3>
+<p><span style="font-size: large;"><em>Do the following statements agree with the views of the writer in Reading Passage 3?</em></span></p>
+<p><span style="font-size: large;"><em>In boxes 35–40 on your answer sheet, write </em></span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong><em>YES</em></strong><em>                  if the statement agrees with the views of the writer</em></span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong><em>NO</em></strong><em>                   if the statement contradicts the views of the writer</em></span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong><em>NOT</em></strong><em> <strong>GIVEN</strong>     if it is impossible to say what the writer thinks about this</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_23  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>35</strong>   Language translation systems will be seen as very useful throughout the academic and professional worlds.</span></p>
+<p><span style="font-size: large;"><strong>36</strong>   The overall value of automated translation to family life is yet to be shown.</span></p>
+<p><span style="font-size: large;"><strong>37</strong>   Automated translation could make life more difficult for immigrant families.</span></p>
+<p><span style="font-size: large;"><strong>38</strong>   Visual aspects of language translation are being considered by scientists.</span></p>
+<p><span style="font-size: large;"><strong>39</strong>   International scientists have found English easier to translate into other languages than Latin.</span></p>
+<p><span style="font-size: large;"><strong>40</strong>   As far as language is concerned, there is a difference between people’s social and practical needs.</span></p></div>
+			</div><div class="et_pb_module et_pb_code et_pb_code_2">
+				
+				
+				
+				
+				<div class="et_pb_code_inner"><div class="ielts-manual-ads" id="ielts-947879944"><div class="ielts-adlabel">Advertisements</div><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7361163811890432" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-7361163811890432" 
+data-ad-slot="" 
+data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script> 
+(adsbygoogle = window.adsbygoogle || []).push({}); 
+</script>
+</div></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				`,
+                        answers:`	<div class="et_pb_toggle_content clearfix"><p>27   D</p>
+<p>28   A</p>
+<p>29   C</p>
+<p>30   B</p>
+<p>31   C</p>
+<p>32   E</p>
+<p>33   F</p>
+<p>34   B</p>
+<p>35   NO</p>
+<p>36   YES</p>
+<p>37   NO</p>
+<p>38   NOT GIVEN</p>
+<p>39   NOT GIVEN</p>
+<p>40   YES</p></div>`
+                }
+               
+
+
+        ]   
+},{
+        id:"19-4",
+        Title:"Cambridge 19 Test 4",
+        passage:[
+
+                {
+                        id:1,
+                        heading:`<p><em><span style="font-size: large;">You should spend about 20 minutes on </span><strong style="font-size: large;">Questions</strong><span style="font-size: large;"> </span><strong style="font-size: large;">1-13</strong><span style="font-size: large;">, which are based on Reading Passage 1 below.</span></em></p>
+`,
+                        Title:`<h2 style="text-align: center;"><span style="font-size: xx-large;"><strong>The impact of climate change on butterflies in Britain</strong></span></h2>`,
+                        content:`<p><span style="font-size: large;">According to conservationists, populations of around two thirds of butterfly species have declined in Britain over the past 40 years. If this trend continues, it might have unpredictable knock-on effects for other species in the ecosystem. Butterfly eggs develop into caterpillars and these insects, which are the second stage in a new butterfly’s lifecycle, consume vast quantities of plant material, and in turn act as prey for birds as well as bats and other small mammals. Only by arming themselves with an understanding of why butterfly numbers are down can conservationists hope to halt or reverse the decline.</span></p>
+<p><span style="font-size: large;">Butterflies prefer outdoor conditions to be ‘just right’, which means neither too hot nor too cold. Under the conditions of climate change, the temperature at any given time in summer is generally getting warmer, leaving butterflies with the challenge of how to deal with this. One of the main ways in which species are ensuring conditions suit them is by changing the time of year at which they are active and reproduce. Scientists refer to the timing of such lifecycle events as ‘phenology’, so when an animal or plant starts to do something earlier in the year than it usually does, it is said to be ‘advancing its phenology’.</span></p>
+<p><span style="font-size: large;">These advances have been observed already in a wide range of butterflies – indeed, most species are advancing their phenology to some extent. In Britain, as the average spring temperature has increased by roughly 0.5°C over the past 20 years, species have advanced by between three days and a week on average, to keep in line with cooler temperatures. Is this a sign that butterflies are well equipped to cope with climate change, and readily adjust to new temperatures? Or are these populations under stress, being dragged along unwillingly by unnaturally fast changes? The answer is still unknown, but a new study is seeking to answer these questions.</span></p>
+<p><span style="font-size: large;">First, the researchers pulled together data from millions of records that had been submitted by butterfly enthusiasts – people who spend their free time observing the activities of different species. This provided information on 130 species of butterflies in Great Britain every year for a 20-year period. They then estimated the abundance and distribution of each species across this time, along with how far north in the country they had moved. The data also, crucially, allowed researchers to estimate subtle changes in what time of the year each species was changing into an adult butterfly.</span></p>
+<p><span style="font-size: large;">Analyzing the trends in each variable, the researchers discovered that species with more flexible lifecycles were more likely to be able to benefit from an earlier emergence driven by climate change. Some species are able to go from caterpillar to butterfly twice or more per year, so that the individual butterflies you see flying in the spring are the grandchildren or great-grandchildren of the individuals seen a year previously.</span></p>
+<p><span style="font-size: large;">Among these species, researchers observed that those which have been advancing their phenology the most over the 20-year study period also had the most positive trends in abundance, distribution and northwards extent. For these species, such as Britain’s tiniest butterfly, the dainty Small Blue, whose colonies are up to a hundred strong, some develop into butterflies early in spring, allowing their summer generations to complete another reproductive cycle by autumn so that more population growth occurs.</span></p>
+<p><span style="font-size: large;">Other species, however, are less flexible and restricted to a single reproductive cycle per year. For these species, there was no evidence of any benefit to emerging earlier. Indeed, worryingly, it was found that the species in this group that specialize in very specific habitat types, often related to the caterpillar’s preferred diet, actually tended to be most at harm from advancing phenology. The beautiful High Brown Fritillary, often described as Britain’s most endangered butterfly, is in this group. It is found only in coppiced woodland and limestone pavement habitats. It is also a single-generation butterfly that has advanced its phenology. This suggests that climate change, while undoubtedly not the sole cause, might have played a part in the downfall of this species.</span></p>
+<p><span style="font-size: large;">All is not lost, however. Many of Britain’s single-generation species show the capacity, in continental Europe, to add a second generation in years that are sufficiently warm. Therefore, as the climate continues to warm, species like the Silver-studded Blue might be able to switch to multiple generations in the UK as well, and so begin to extract benefits from the additional warmth, potentially leading to population increases.</span></p>
+<p><span style="font-size: large;">More immediately, conservationists can arm themselves with all this knowledge to spot the warning signs of species that may be at risk. The White Admiral of southern England, a much sought-after butterfly, experienced a significant increase in numbers from the 1920s but has shown a considerable decline in the past 20 years. This may be because the caterpillar exists solely on a diet of a plant called honeysuckle. But it is also likely to be due to climate change.</span></p>
+<p><span style="font-size: large;"></span></p>`,
+                        questions:`  <div class="et_pb_row et_pb_row_1">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: x-large; color: #353535;"><strong>Questions 1–6</strong></span></p>
+<p><span style="font-size: large;">Do the following statements agree with the information given in Reading Passage 1?</span></p>
+<p><span style="font-size: large;"><em>In boxes 1–6</em> <em>on your answer sheet, write</em></span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong><em>TRUE</em></strong><em>               if the statement agrees with the information</em></span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong><em>FALSE</em></strong><em>              if the statement contradicts the information</em></span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong><em>NOT</em></strong><em> <strong>GIVEN</strong>     if there is no information on this</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>1</strong>   Forty years ago, there were fewer butterflies in Britain than at present.</span></p>
+<p><span style="font-size: large;"><strong>2</strong>   Caterpillars are eaten by a number of different predators.</span></p>
+<p><span style="font-size: large;"><strong>3</strong>   ‘Phenology’ is a term used to describe a creature’s ability to alter the location of a lifecycle event.</span></p>
+<p><span style="font-size: large;"><strong>4</strong>   Some species of butterfly have a reduced lifespan due to spring temperature increases.</span></p>
+<p><span style="font-size: large;"><strong>5</strong>   There is a clear reason for the adaptations that butterflies are making to climate change.</span></p>
+<p><span style="font-size: large;"><strong>6</strong>   The data used in the study was taken from the work of amateur butterfly watchers.</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_2">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_4  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3><span style="font-size: x-large;"><strong>Questions 7–13</strong></span></h3>
+<p><span style="font-size: large;"><em>Complete the notes below.</em></span></p>
+<p><span style="font-size: large;"><em>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</em></span></p>
+<p><span style="font-size: large;"><em>Write your answers in boxes 7–13 on your answer sheet.</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_5  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3 style="text-align: center;"><span style="font-size: x-large;"><strong>Butterflies in the UK</strong></span></h3>
+<p><span style="font-size: large;"><strong>The Small Blue</strong></span></p>
+<p><span style="font-size: large;">●   lives in large <strong>7</strong>……………….</span></p>
+<p><span style="font-size: large;">●   first appears at the start of <strong>8</strong>……………….</span></p>
+<p><span style="font-size: large;">●   completes more than one reproductive cycle per year</span></p>
+<p><span style="font-size: large;"><strong></strong></span></p>
+<p><span style="font-size: large;"><strong>The High Brown Fritillary</strong></span></p>
+<p><span style="font-size: large;">●   has one reproductive cycle</span></p>
+<p><span style="font-size: large;">●   is considered to be more <strong>9</strong>………………. than other species</span></p>
+<p><span style="font-size: large;">●   its caterpillars occupy a limited range of <strong>10</strong>……………….</span></p>
+<p><span style="font-size: large;"><strong></strong></span></p>
+<p><span style="font-size: large;"><strong>The Silver-studded Blue</strong></span></p>
+<p><span style="font-size: large;">●   is already able to reproduce twice a year in warm areas of <strong>11</strong>……………….</span></p>
+<p><span style="font-size: large;"><strong></strong></span></p>
+<p><span style="font-size: large;"><strong>The White Admiral</strong></span></p>
+<p><span style="font-size: large;">●   is found in <strong>12</strong>………………. areas of England</span></p>
+<p><span style="font-size: large;">●   both climate change and the <strong>13</strong>………………. of the caterpillar are possible reasons for decline</span></p></div>
+			</div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>`,
+                        answers:`	<div class="et_pb_toggle_content clearfix"><p>1   FALSE</p>
+<p>2   TRUE</p>
+<p>3   FALSE</p>
+<p>4   NOT GIVEN</p>
+<p>5   FALSE</p>
+<p>6   TRUE</p>
+<p>7   colonies</p>
+<p>8   spring</p>
+<p>9   endangered</p>
+<p>10   habitat(s)</p>
+<p>11   Europe</p>
+<p>12   southern</p>
+<p>13   diet</p></div>`
+                },{
+                        id:2,
+                        heading:`<p><em><span style="font-size: large;">You should spend about 20 minutes on <strong>Questions 14–26</strong>, which are based on Reading Passage 2 below.</span></em></p>
+`,Title:`<h2 style="text-align: center;"><span style="font-size: xx-large;"><strong>Deep-sea mining</strong></span></h2>`,
+                        content:`<p style="text-align: center;"><span style="font-size: large;"><em>Bacteria from the ocean floor can beat superbugs and cancer. But habitats are at risk from the hunger for marine minerals</em></span></p>
+<p><span style="font-size: large;"><strong>A</strong></span></p>
+<p><span style="font-size: large;">When Professor Mat Upton found that a microbe from a deep-sea sponge was killing pathogenic bugs in his laboratory, he realised it could be a breakthrough in the light against antibiotic-resistant superbugs, which are responsible for thousands of deaths a year in the UK alone. Further tests confirmed that an antibiotic from the sponge bacteria, found living more than 700 metres under the sea at the Rockall trough in the north-east Atlantic, was previously unknown to science, boosting its potential as a life-saving medicine. But Upton, and other scientists who view the deep ocean and its wealth of unique and undocumented species as a prospecting ground for new medicines, fear such potential will be lost in the rush to exploit the deep sea’s equally rich metal and mineral resources.</span></p>
+<p><span style="font-size: large;"><strong>B</strong></span></p>
+<p><span style="font-size: large;">‘We’re looking at the bioactive potential of marine resources, to see if there are any more medicines or drugs down there before we destroy it for ever,’ says Upton, a medical microbiologist at the University of Plymouth. He is among many scientists urging a halt to deep-sea mining, asking for time to weigh up the pros and cons. ‘In sustainability terms, this could be a better way of exploiting the economic potential of the deep sea,’ he argues. Oceanographers using remotely operated vehicles have spotted many new species. Among them have been sea cucumbers with tails allowing them to sail along the ocean floor, and a rare ‘Dumbo’octopus, found 3,000 metres under the Pacific Ocean, off the coast of California. Any one of these could offer lifesaving potential. Upton estimates it could take up to a decade for a newly discovered antibiotic to become a medicine – but the race towards commercial mining in the ocean abyss has already begun.</span></p>
+<p><span style="font-size: large;"><strong>C</strong></span></p>
+<p><span style="font-size: large;">The deep sea contains more nickel, cobalt and rare earth metals than all land reserves combined, according to the US Geological Survey. Mining corporations argue that deep-sea exploration could help diversify the supply of metals and point to the fact that demand for resources such as copper, aluminum, cobalt for electric car batteries and other metals to power technology and smartphones, is soaring. They say that deep-sea mining could yield far superior ore to land mining with little, if any, waste. Different methods of extraction exist, but most involve employing some form of converted machinery previously used in terrestrial mining to excavate materials from the sea floor, at depths of up to 6,000 meters, then drawing a seawater slurry, containing rock and other solid particles, from the sea floor to ships on the surface. The slurry is then ‘de-watered ’ and transferred to another vessel for shipping. Extracted seawater is pumped back down and discharged close to the sea floor.</span></p>
+<p><span style="font-size: large;"><strong>D</strong></span></p>
+<p><span style="font-size: large;">But environmental and legal groups have urged caution, arguing there are potentially massive and unknown ramifications for the environment and for nearby communities, and that the global regulatory framework is not yet drafted. ‘Despite arising in the last half century, the “new global gold rush” of deep-sea mining shares many features with past resource scrambles – including a general disregard for environmental and social impacts, and the marginalisation of indigenous peoples and their rights,’ a paper, written by Julie Hunter and Julian Aguon, from Blue Ocean Law, and Pradeep Singh, from the Center for Marine Environmental Sciences, Bremen, argues. The authors say that knowledge of the deep seabed remains extremely limited. ‘The surface of the Moon, Mars and even Venus have all been mapped and studied in much greater detail, leading marine scientists to commonly remark that, with respect to the deep sea, “We don’t yet know what we need to know”.’</span></p>
+<p><span style="font-size: large;"><strong>E</strong></span></p>
+<p><span style="font-size: large;">Scientific research – including a recent paper in Marine Policy journal has suggested the deep seabed, and hydrothermal vents, which are created when seawater meets volcanic magma, have crucial impacts upon biodiversity and the global climate. The mineral-rich vents and their surrounds are also home to many well-known animals including crustaceans, tubeworms, clams, slugs, anemones and fish. ‘It is becoming increasingly clear that deep-sea mining poses a grave threat to these vital seabed functions,’ the paper says. ‘Extraction methods would produce large sediment plumes and involve the discharge of waste back into the ocean, significantly disturbing seafloor environments,’ the paper continues. ‘On deep sea vents, scientists are clear,’ says Dr Jon Copley of the National Oceanography Centre, Southampton: ‘We don’t want mining on them.’</span></p>
+<p><span style="font-size: large;"><strong>F</strong></span></p>
+<p><span style="font-size: large;">The oceans occupy around 70% of the planet and are relatively unexplored, says Mike Johnston, chief executive of Nautilus, a Canadian underwater exploration company: ‘It makes sense to explore this untapped potential in an environmentally sustainable way, instead of continually looking at the fast depleting land resources of the planet to meet society’s rising needs.’ Those leading the global rush to place giant mining machines thousands of metres below the sea surface say the environmental impacts will be far lower than on land. But critics say exotic and little-known ecosystems in the deep oceans could be destroyed and must be protected. ‘Mining will be the greatest assault on deep-sea ecosystems ever inflicted by humans,’ according to hydrothermal vent expert Verena Tunnicliffe, at the University of Victoria in Canada. She argues that active vents must be off-limits for mining to protect the new knowledge and biotechnology spin-offs they can deliver, and that strict controls must be in place elsewhere.</span></p>
+<p><span style="font-size: large;"></span></p>`,
+                        questions:`  <div class="et_pb_row et_pb_row_4">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_4  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_8  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3><span style="font-size: x-large;"><strong>Questions 14–17</strong></span></h3>
+<p><span style="font-size: large;">Reading Passage 2 has six paragraphs, <strong>A–F</strong>.</span></p>
+<p><span style="font-size: large;">Which paragraph contains the following information?</span></p>
+<p><span style="font-size: large;"><em>Write the correct letter, <strong>A–F</strong>, in boxes 14–17 on your answer sheet.</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_9  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>14 </strong>  reference to the rapidly increasing need for one raw material in the transport industry</span></p>
+<p><span style="font-size: large;"><strong>15 </strong>  a rough estimate of the area of the Earth covered by the oceans</span></p>
+<p><span style="font-size: large;"><strong>16 </strong>  how a particular underwater habitat, where minerals and organisms co-exist, is formed</span></p>
+<p><span style="font-size: large;"><strong>17 </strong>  reference to the fact that the countries of the world have yet to agree on rules for the exploration of the seabed</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_5">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_5  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_10  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: x-large; color: #353535;"><strong>Questions 18–23</strong></span></p>
+<p><span style="font-size: large;"><em>Look at the following statements (Questions 18–23) and the list of people below.</em></span></p>
+<p><span style="font-size: large;"><em>Match each statement with the correct person or people, <strong>A-E</strong>.</em></span></p>
+<p><span style="font-size: large;"><em>Write the correct letter, <strong>A-E</strong>, in boxes 18–23 on your answer sheet.</em></span></p>
+<p><span style="font-size: large;"><strong><em>NB</em></strong><em>   You may use any letter more than once.</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_11  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>18 </strong>  A move away from the exploration of heavily mined reserves on land is a good idea.</span></p>
+<p><span style="font-size: large;"><strong>19 </strong>  The negative effects of undersea exploration on local areas and their inhabitants are being ignored.</span></p>
+<p><span style="font-size: large;"><strong>20 </strong>  There are more worthwhile things to extract from the sea than minerals.</span></p>
+<p><span style="font-size: large;"><strong>21 </strong>  No other form of human exploration will have such a destructive impact on marine life as deep-sea mining.</span></p>
+<p><span style="font-size: large;"><strong>22 </strong>  More is known about outer space than about what lies beneath the oceans.</span></p>
+<p><span style="font-size: large;"><strong>23 </strong>  There is one marine life habitat where experts agree mining should not take place.</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_6">
+				<div class="et_pb_column et_pb_column_2_3 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_with_border et_pb_module et_pb_text et_pb_text_12  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p style="padding-left: 25px;"><span style="font-size: large;"><strong>List of People</strong></span></p>
+<p><span style="font-size: large;"><strong>A </strong>  Professor Mat Upton</span></p>
+<p><span style="font-size: large;"><strong>B </strong>  Julie Hunter, Julian Aguon and Pradeep Singh</span></p>
+<p><span style="font-size: large;"><strong>C </strong>  Dr Jon Copley</span></p>
+<p><span style="font-size: large;"><strong>D</strong>   Mike Johnston</span></p>
+<p><span style="font-size: large;"><strong>E </strong>  Verena Tunnicliffe</span></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_3 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child et_pb_column_empty">
+				
+				
+				
+				
+				
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_7">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_8  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_13  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3><span style="font-size: x-large;"><strong>Questions 24–26</strong></span></h3>
+<p><span style="font-size: large;"><em>Complete the summary below.</em></span></p>
+<p><span style="font-size: large;"><em>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</em></span></p>
+<p><span style="font-size: large;"><em>Write your answers in boxes 24–26 on your answer sheet.</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_14  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3 style="text-align: center;"><span style="font-size: x-large;"><strong>Mining the sea floor</strong></span></h3>
+<p><span style="font-size: large;">Mining corporations believe that the mineral resources lying under the sea may be superior to those found in the earth. They also say that these can be removed without producing much <strong>24</strong>………………… .</span></p>
+<p><span style="font-size: large;">The extraction is often done by adapting the <strong>25</strong>………………… that has already been used to work on land. The method of excavation involves removing the seawater from the slurry that is brought up to ships and returning it to the seabed. However, concerned groups strongly believe that <strong>26</strong>………………… is necessary due to the possible number of unidentified consequences.</span></p></div>
+			</div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>`,
+                        answers:`	<div class="et_pb_toggle_content clearfix"><p>14   C</p>
+<p>15   F</p>
+<p>16   E</p>
+<p>17   D</p>
+<p>18   D</p>
+<p>19   B</p>
+<p>20   A</p>
+<p>21   E</p>
+<p>22   B</p>
+<p>23   C</p>
+<p>24   waste</p>
+<p>25   machinery</p>
+<p>26   caution</p></div>`,
+                },
+                {
+                        id:3,
+                        heading:`<p><span style="font-size: large;"><em>You should spend about 20 minutes on <strong>Questions 27–40</strong>, which are based on Reading Passage 3 below.</em></span></p>
+`,Title:`<h2 style="text-align: center;"><span style="font-size: xx-large;"><strong>The Unselfish Gene</strong></span></h2>`,
+                        content:`<p style="text-align: center;"><span style="font-size: large;"><em>A psychologist gives his view on how humans became self-centred</em></span></p>
+<p><span style="font-size: large;">There has long been a general assumption that human beings are essentially selfish. We’re apparently ruthless, with strong impulses to compete against each other for resources and to accumulate power and possessions. If we are kind to one another, it’s usually because we have ulterior motives. If we are good, it’s only because we have managed to control and transcend our innate selfishness and brutality.</span></p>
+<p><span style="font-size: large;">This bleak view of human nature is closely associated with the science writer Richard Dawkins, whose 1976 book <em>The Selfish Gene</em> became popular because it fitted so well with – and helped to justify – the competitive and individualistic ethos that was so prevalent in late 20th-century societies. Like many others, Dawkins justifies his views with reference to the field of evolutionary psychology. Evolutionary psychology theorises that present-day human traits developed in prehistoric times, during what is termed the ‘environment of evolutionary adaptedness’.</span></p>
+<p><span style="font-size: large;">Prehistory is usually seen as a period of intense competition, when life was such a brutal battle that only those with traits such as selfishness, aggression and ruthlessness survived. And because survival depended on access to resources – such as rivers, forests and animals – there was bound to be conflict between rival groups, which led to the development of traits such as racism and warfare. This seems logical. But, in fact, the assumption on which this all rests – that prehistoric life was a desperate struggle for survival – is false.</span></p>
+<p><span style="font-size: large;">It’s important to remember that in the prehistoric era, the world was very sparsely populated. According to some estimates, around 15,000 years ago, the population of Europe was only 29,000, and the population of the whole world was less than half a million. Humans at that time were hunter-gatherers: people who lived by hunting wild animals and collecting wild plants. With such small population densities, it seems unlikely that prehistoric hunter-gatherer groups had to compete against each other for resources or had any need to develop ruthlessness and competitiveness, or to go to war.</span></p>
+<p><span style="font-size: large;">There is significant evidence to back this notion from contemporary hunter-gatherer groups, who live in the same way as prehistoric humans did. As the anthropologist Bruce Knauft has remarked, hunter-gatherers are characterized by ‘extreme political and sexual egalitarianism’. Knauft has observed that individuals in such groups don’t accumulate property or possessions and have an ethical obligation to share everything. They also have methods of preserving egalitarianism by ensuring that disparities of status don’t arise.</span></p>
+<p><span style="font-size: large;">The <em>!Kung</em> people of southern Africa, for example, swap arrows before going hunting and when an animal is killed, the acclaim does not go to the person who fired the arrow, but to the person the arrow belongs to. And if a person becomes too domineering, the other members of the group ostracise them, exiling the offender from society. Typically in such groups, men do not dictate what women do. Women in hunter-gatherer groups worldwide often benefit from a high level of autonomy, being able to select their own marriage partners, decide what work they do and work whenever they choose to. And if a marriage breaks down, they have custody rights over their children.</span></p>
+<p><span style="font-size: large;">Many anthropologists believe that societies such as the <em>!Kung</em> were normal until a few thousand years ago, when population growth led to the development of agriculture and a settled lifestyle. In view of the above, there seems little reason to assume that traits such as racism, warfare and male domination should have been selected by evolution – as they would have been of little benefit in the prehistoric era. Individuals who behaved selfishly and ruthlessly would be less likely to survive, since they would have been ostracised from their groups.</span></p>
+<p><span style="font-size: large;">It makes more sense, then, to see traits such as cooperation, egalitarianism, altruism and peacefulness as innate characteristics of human beings. These were the traits that were prevalent in human life for tens of thousands of years. So presumably these traits are still strong in us now.</span></p>
+<p><span style="font-size: large;">But if prehistoric life wasn’t really as brutal as has often been assumed, why do modern humans behave so selfishly and ruthlessly? Perhaps these negative traits should be seen as a later development, the result of environmental and psychological factors. Research has shown repeatedly that when the natural habitats of primates such as apes and gorillas are disrupted, they tend to become more violent and hierarchical.</span></p>
+<p><span style="font-size: large;">So, it could well be that the same thing has happened to us. I believe that the end of the hunter-gatherer lifestyle and the advent of farming was connected to a psychological change that occurred in some groups of people. There was a new sense of individuality and separateness, which led to a new selfishness, and ultimately to hierarchical societies, patriarchy and warfare. At any rate, these negative traits appear to have developed so recently that it doesn’t seem feasible to explain them in adaptive or evolutionary terms.</span></p>
+<p><span style="font-size: large;"></span></p>`,
+                        questions:` <div class="et_pb_row et_pb_row_9">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_10  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_17  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: x-large; color: #353535;"><strong>Questions 27–30</strong></span></p>
+<p><span style="font-size: large;"><em>Choose the correct letter, <strong>A</strong>, <strong>B</strong>, <strong>C</strong> or <strong>D</strong>.</em></span></p>
+<p><span style="font-size: large;"><em>Write the correct letter in boxes 27–30 on your answer sheet.</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_18  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>27 </strong>  What is the writer doing in the first paragraph?</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>A   </strong>setting out two opposing views about human nature</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>B   </strong>justifying his opinion about our tendency to be greedy</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>C   </strong>describing a commonly held belief about people’s behaviour</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>D  </strong> explaining why he thinks that humans act in a selfish manner</span></p>
+<p><span style="font-size: large;"><strong></strong></span></p>
+<p><span style="font-size: large;"><strong>28 </strong>  What point is made about Richard Dawkins’ book <em>The Selfish Gene</em>?</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>A   </strong>Its appeal lay in the radical nature of its ideas.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>B   </strong>Its success was due to the scientific support it offered.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>C   </strong>It presented a view that was in line with the attitudes of its time.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>D  </strong> It took an innovative approach to the analysis of human psychology.</span></p>
+<p><span style="font-size: large;"><strong></strong></span></p>
+<p><span style="font-size: large;"><strong>29 </strong>  What does the writer suggest about the prehistoric era in the fourth paragraph?</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>A   </strong>Societies were more complex than many people believe.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>B   </strong>Supplies of natural resources were probably relatively plentiful.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>C   </strong>Most estimates about population sizes are likely to be inaccurate.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>D  </strong> Humans moved across continents more than was previously thought.</span></p>
+<p><span style="font-size: large;"><strong></strong></span></p>
+<p><span style="font-size: large;"><strong>30</strong>   The writer refers to Bruce Knauft’s work as support for the idea that</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>A  </strong> selfishness is a relatively recent development in human societies.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>B  </strong> only people in isolated communities can live in an unselfish manner.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>C  </strong> very few lifestyles have survived unchanged since prehistoric times.</span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong>D  </strong> hunter-gatherer cultures worldwide are declining in number.</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_10">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_11  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_19  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: x-large; color: #353535;"><strong>Questions 31–35</strong></span></p>
+<p><span style="font-size: large;"><em>Complete the summary below.</em></span></p>
+<p><span style="font-size: large;"><em>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.</em></span></p>
+<p><span style="font-size: large;"><em>Write your answers in boxes 31–35 on your answer sheet.</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_20  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3 style="text-align: center;"><span style="font-size: x-large;"><strong>Contemporary hunter-gatherer societies</strong></span></h3>
+<p><span style="font-size: large;">Bruce Kauft’s research shows that contemporary hunter-gatherer societies tend to exhibit a high level of <strong>31</strong>………………… in all areas of life. In these cultures, distributing resources fairly among all members is a moral obligation. These societies also employ strategies to prevent differences in <strong>32</strong>………………… occurring: for example, the <em>!Kung</em> follow a custom whereby the credit for one person’s success at <strong>33</strong>………………… is given to another member of the group. Individuals who behave in a <strong>34</strong>………………… manner are punished by being excluded from the group, and women have a considerable amount of <strong>35</strong>………………… in choices regarding work and marriage.</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_11">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_12  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_21  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3><span style="font-size: x-large;"><strong>Questions 36–40</strong></span></h3>
+<p><span style="font-size: large;">Do the following statements agree with the views of the writer in Reading Passage 3?</span></p>
+<p><span style="font-size: large;"><em>In boxes 36–40 on your answer sheet, write</em></span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong><em>YES</em></strong><em>                 if the statement agrees with the views of the writer</em></span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong><em>NO</em></strong><em>                 if the statement contradicts the views of the writer</em></span></p>
+<p style="padding-left: 40px;"><span style="font-size: large;"><strong><em>NOT</em></strong><em> <strong>GIVEN</strong>   if it is impossible to say what the writer thinks about this</em></span></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_22  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span style="font-size: large;"><strong>36</strong>   Some anthropologists are mistaken about the point when the number of societies such as the <em>!Kung</em> began to decline.</span></p>
+<p><span style="font-size: large;"><strong>37</strong>   Humans who developed warlike traits in prehistory would have had an advantage over those who did not.</span></p>
+<p><span style="font-size: large;"><strong>38</strong>   Being peaceful and cooperative is a natural way for people to behave.</span></p>
+<p><span style="font-size: large;"><strong>39</strong>   Negative traits are more apparent in some modern cultures than in others.</span></p>
+<p><span style="font-size: large;"><strong>40</strong>   Animal research has failed to reveal a link between changes in the environment and the emergence of aggressive tendencies.</span></p></div>
+			</div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>`,
+                        answers:`	<div class="et_pb_toggle_content clearfix"><p>27   C</p>
+<p>28   C</p>
+<p>29   B</p>
+<p>30   A</p>
+<p>31   egalitarianism</p>
+<p>32   status</p>
+<p>33   hunting</p>
+<p>34   domineering</p>
+<p>35   autonomy</p>
+<p>36   NOT GIVEN</p>
+<p>37   NO</p>
+<p>38   YES</p>
+<p>39   NOT GIVEN</p>
+<p>40   NO</p></div>`,
+                }
+
+        ]
+}
       
 ]
